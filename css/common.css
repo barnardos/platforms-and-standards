@@ -1,0 +1,30 @@
+/*
+ * Styles used on every page
+ */
+
+/* Layout column */
+.layout {
+  display: block;
+  margin-inline: auto;
+  max-inline-size: 87.5rem;
+  inline-size: 95vw;
+}
+
+/* Header */
+.logo {
+  block-size: 3.875rem;
+  display: block;
+  inline-size: 8.4375rem;
+  max-inline-size: 100%;
+}
+
+.logo__img {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+/* Hero */
+.hero {
+  background: var(--theme-medium);
+  padding: 3rem 0;
+}

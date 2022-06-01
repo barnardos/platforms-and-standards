@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ title }}</title>
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+      {% include "css/fonts.css" %}
+      {% include "css/elements.css" %}
+      {% include "css/common.css" %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+  </head>
+
+  <body>
+    <header class="layout">
+      <a href="/" class="logo">{% include 'html/logo.html' %}</a>
+    </header>
+
+    {{ content | safe }}
+
+    <footer>
+      <small>© Barnardo’s</small>
+    </footer>
+  </body>
+</html>
