@@ -3,9 +3,12 @@ layout: layout
 title: Our standards platform | Barnardo's
 desc: The principles guiding the development of our online platforms
 pageTitle: Our standards platform
+shortTitle: Standards
 pageName: platform
-tags: main
+permalink: standards/
+tags: platform
 heroModifier: hero--standards
+extract: How we build for success.
 ---
 
 <p>If you are building a Barnardo's online product this is where you'll find the resources to make it to our standards.</p>
@@ -14,7 +17,7 @@ heroModifier: hero--standards
   {% set standardsList = collections.standard %}
   {% for standard in standardsList %}
     <div class="card">
-      <h3 class="card-title"><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h3>
+      <h2 class="card-title"><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h2>
       <p class="card-summary">{{ standard.data.extract }}</p>
     </div>
   {% endfor %}
