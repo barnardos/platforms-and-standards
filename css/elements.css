@@ -90,7 +90,7 @@ li {
 aside {
   background-color: var(--grey-light);
   margin-block-end: 2rem;
-  padding: 1rem;
+  padding: 16px;
 }
 
 summary {
