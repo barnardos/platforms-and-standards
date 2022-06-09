@@ -21,21 +21,20 @@
       <a href="/" class="logo">{% include 'html/logo.html' %}</a>
     </header>
 
-    <main>
-      <h1 class="hero {{ heroModifier }}"><span class="layout">{{ pageTitle }}</span></h1>
-
-      <div class="layout">
-
-    {{ content | safe }}
-
-      </div>
-
-    </main>
+    <h1 class="hero {{ heroModifier }}"><span class="layout">{{ pageTitle }}</span></h1>
 
     <div class="layout">
+
+      <main>
+
+        {{ content | safe }}
+
+      </main>
+
       <aside>
         {% changelog filePath=page.inputPath %}
       </aside>
+
     </div>
 
     <footer>
