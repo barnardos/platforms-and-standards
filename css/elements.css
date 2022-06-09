@@ -4,8 +4,10 @@
   --grey-dark: hsl(var(--grey-base) 11%);
   --grey-medium-light: hsl(var(--grey-base) 91%);
   --grey-light: hsl(var(--grey-base) 96%);
-  --theme-base: 39.1 100%;
-  --theme-medium: hsl(var(--theme-base) 64%);
+  --yellow-base: 39.1 100%;
+  --yellow-medium: hsl(var(--yellow-base) 64%);
+  --blue-base: 185.7 100%;
+  --blue-medium: hsl(var(--blue-base) 28%);
 
   /* Type
    * @link https://utopia.fyi/type/calculator?c=0,16,1.125,1400,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l
@@ -44,7 +46,7 @@ header {
 
 img,
 svg {
-  max-width: 100%;
+  max-inline-size: 100%;
 }
 
 main > * {

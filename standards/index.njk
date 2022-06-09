@@ -1,0 +1,15 @@
+---
+layout: layout
+title: Standards as a platform | Barnardo's
+desc: The principles guiding the development of our online platforms
+pageTitle: Standards as a platform
+tags: main
+heroModifier: hero--standards
+---
+
+<p>If you are building a Barnardo's online product this is where you'll find the resources to make it to our standards.</p>
+
+{% set standardsList = collections.standard %}
+{% for standard in standardsList %}
+  <h3><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h3>
+{% endfor %}

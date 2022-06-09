@@ -25,6 +25,11 @@
 
 /* Hero */
 .hero {
-  background: var(--theme-medium);
+  background: var(--yellow-medium);
   padding: 3rem 0;
+}
+
+.hero--standards {
+  background: var(--blue-medium);
+  color: white;
 }
