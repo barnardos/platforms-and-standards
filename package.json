@@ -11,10 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
+    "luxon": "^2.4.0",
     "stylelint": "^14.8.5",
     "stylelint-config-standard": "^25.0.0"
   },
   "dependencies": {
-    "clean-css": "^5.3.0"
+    "clean-css": "^5.3.0",
+    "gitlog": "^4.0.4"
   }
 }
