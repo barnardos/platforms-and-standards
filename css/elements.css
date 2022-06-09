@@ -86,6 +86,16 @@ li {
   max-inline-size: 65ch;
 }
 
+aside {
+  background-color: var(--grey-light);
+  margin-block-end: 2rem;
+  padding: 1rem;
+}
+
+summary {
+  inline-size: max-content;
+}
+
 footer {
   background-color: var(--grey-light);
   border-block-start: 4px solid var(--grey-medium-light);
