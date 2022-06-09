@@ -9,6 +9,10 @@
       {% include "css/fonts.css" %}
       {% include "css/elements.css" %}
       {% include "css/common.css" %}
+      {% if pageName == 'platform' %}
+        {% include "css/components/cards-grid.css" %}
+        {% include "css/components/card.css" %}
+      {% endif %}
     {% endset %}
     <!-- feed it through our cssmin filter to minify -->
     <style>

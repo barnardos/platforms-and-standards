@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid var(--grey-medium);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: var(--step-3);
+}
+
+.card-summary {
+  margin: 0;
+}

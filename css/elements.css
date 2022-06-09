@@ -2,6 +2,7 @@
   /* Colours */
   --grey-base: 0 0%;
   --grey-dark: hsl(var(--grey-base) 11%);
+  --grey-medium: hsl(var(--grey-base) 82%);
   --grey-medium-light: hsl(var(--grey-base) 91%);
   --grey-light: hsl(var(--grey-base) 96%);
   --yellow-base: 39.1 100%;
