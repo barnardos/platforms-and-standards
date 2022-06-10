@@ -1,6 +1,16 @@
 const CleanCSS = require("clean-css");
 const { DateTime } = require("luxon");
 const gitlog = require("gitlog").default;
+let markdownIt = require("markdown-it");
+const markdownItAttrs = require('markdown-it-attrs');
+
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+}
+
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
 module.exports = function(eleventyConfig) {
   // Use assets
@@ -49,7 +59,11 @@ module.exports = function(eleventyConfig) {
     }
     html += "</ul></details>";
     return html;
-});
+  });
+
+  // Markdown-it
+  eleventyConfig.setLibrary('md', markdownLib)
+
 };
 
 

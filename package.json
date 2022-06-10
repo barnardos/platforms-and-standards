@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "clean-css": "^5.3.0",
-    "gitlog": "^4.0.4"
+    "gitlog": "^4.0.4",
+    "markdown-it-attrs": "^4.1.4"
   }
 }

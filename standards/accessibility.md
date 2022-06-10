@@ -4,6 +4,7 @@ title: Accessibility | Standards as a platform | Barnardo's
 desc: Barnardo's online platforms accessibility standards
 permalink: standards/web-accessibility/
 pageTitle: Web accessibility
+pageTaxonomy: content
 tags: standard
 extract: How we make sure people with disabilities can use our online products.
 heroModifier: hero--standards
@@ -21,6 +22,7 @@ It is a legal and moral obligation to make web content and functionality availab
 - Neurodiversity
 - Motion sickness
 - Reading level
+{.list}
 
 All Barnardo's web pages must achieve [WCAG](https://www.w3.org/TR/WCAG21/) (web content accessibility guidelines) AA conformance throughout, and level AAA conformance where possible.
 

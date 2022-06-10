@@ -17,6 +17,9 @@
         {% include "css/components/cards-grid.css" %}
         {% include "css/components/card.css" %}
       {% endif %}
+      {% if pageTaxonomy == 'content' %}
+        {% include "css/components/list.css" %}
+      {% endif %}
     {% endset %}
     <!-- feed it through our cssmin filter to minify -->
     <style>
