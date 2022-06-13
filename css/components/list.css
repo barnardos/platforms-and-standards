@@ -1,3 +1,10 @@
 .list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   list-style: initial;
+  max-inline-size: 65ch;
+}
+
+.list li {
+  padding-inline-end: 16px;
 }
