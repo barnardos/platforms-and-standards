@@ -31,5 +31,20 @@
 
 .hero--standards {
   background: var(--blue-medium);
+}
+
+.hero--content {
+  background: var(--orange-medium);
+}
+
+.hero--services {
+  background: var(--purple-medium);
+}
+
+.hero--fundraising {
+  background: var(--pink-medium);
+}
+
+[class*="hero--"] {
   color: white;
 }

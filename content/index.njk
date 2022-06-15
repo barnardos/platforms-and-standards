@@ -1,0 +1,26 @@
+---
+layout: layout
+title: Our content platform | Barnardo's
+desc: How we are improving content use, reuse, and repurposing
+pageTitle: Our content platform
+shortTitle: Content
+pageTaxonomy: platform
+permalink: content/
+tags: platform
+themeModifier: content
+extract: How we use content to help, inform, and fundraise.
+order: 3
+---
+
+<p>Nothing here yet.</p>
+
+<div class="cards-grid">
+  {% set contentList = collections.content %}
+  {% for content in contentList %}
+    <div class="card">
+      <h2 class="card-title card-title--{{ content.data.themeModifier }}"><a href="/{{ content.data.permalink }}">{{ content.data.pageTitle }}</a></h2>
+      <p class="card-summary">{{ content.data.extract }}</p>
+    </div>
+  {% endfor %}
+</div>
+

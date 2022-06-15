@@ -10,6 +10,12 @@
   --blue-base: 185.7 100%;
   --blue-medium: hsl(var(--blue-base) 28%);
   --focus-outline: hsl(27.9, 100%, 45.5%);
+  --purple-base: 306.2 54.9%;
+  --purple-medium: hsl(var(--purple-base) 27.8%);
+  --orange-base: 27.9 100%;
+  --orange-medium: hsl(var(--orange-base) 37.5%);
+  --pink-base: 327.1 100%;
+  --pink-medium: hsl(var(--pink-base) 40%);
 
   /* Type
    * @link https://utopia.fyi/type/calculator?c=0,16,1.125,1400,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l

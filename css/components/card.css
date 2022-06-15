@@ -1,13 +1,34 @@
 .card {
   border: 1px solid var(--grey-medium);
   border-radius: 4px;
-  padding: 20px;
 }
 
 .card-title {
   font-size: var(--step-3);
+  padding: 20px;
+}
+
+.card-title--standards {
+  background: var(--blue-medium);
+}
+
+.card-title--services {
+  background: var(--purple-medium);
+}
+
+.card-title--content {
+  background: var(--orange-medium);
+}
+
+.card-title--fundraising {
+  background: var(--pink-medium);
+}
+
+.card-title a {
+  color: white;
 }
 
 .card-summary {
   margin: 0;
+  padding: 0 20px 20px;
 }

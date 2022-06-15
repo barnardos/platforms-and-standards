@@ -7,8 +7,9 @@ shortTitle: Standards
 pageTaxonomy: platform
 permalink: standards/
 tags: platform
-heroModifier: hero--standards
+themeModifier: standards
 extract: How we build for success.
+order: 4
 ---
 
 <p>If you are building a Barnardo's online product this is where you'll find the resources to make it to our standards.</p>
@@ -17,7 +18,7 @@ extract: How we build for success.
   {% set standardsList = collections.standard %}
   {% for standard in standardsList %}
     <div class="card">
-      <h2 class="card-title"><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h2>
+      <h2 class="card-title card-title--{{ standard.data.themeModifier }}"><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h2>
       <p class="card-summary">{{ standard.data.extract }}</p>
     </div>
   {% endfor %}

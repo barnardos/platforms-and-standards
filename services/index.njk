@@ -1,0 +1,28 @@
+---
+layout: layout
+title: Our services platform | Barnardo's
+desc: How we are helping Barnardo's children's services help service users for better outcomes.
+pageTitle: Our services platform
+shortTitle: Services
+pageTaxonomy: platform
+permalink: services/
+tags: platform
+themeModifier: services
+extract: How we are helping services reach more people.
+order: 1
+---
+
+<p>Nothing here yet.</p>
+
+<div class="cards-grid">
+  {% set serviceList = collections.service %}
+  {% for service in serviceList %}
+    <div class="card">
+      <h2 class="card-title card-title--{{ service.data.themeModifier }}"><a href="/{{ service.data.permalink }}">{{ service.data.pageTitle }}</a></h2>
+      <p class="card-summary">{{ service.data.extract }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+
+
