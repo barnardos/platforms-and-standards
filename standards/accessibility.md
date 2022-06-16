@@ -8,6 +8,9 @@ pageTaxonomy: content
 tags: standard
 extract: How we make sure people with disabilities can use our online products.
 themeModifier: standards
+eleventyNavigation:
+  key: Web accessibility
+  parent: Standards
 ---
 
 It is a legal and moral obligation to make web content and functionality available to people with disabilities. This includes but is not limited to:

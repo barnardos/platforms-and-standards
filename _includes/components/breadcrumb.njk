@@ -1,0 +1,11 @@
+<div class="layout">
+  {% set crumbs = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
+  <ol class="breadcrumb">
+    {% for crumb in crumbs %}
+      <li>
+        <a class="crumb" href="{{ crumb.url | url }}">{{ crumb.title }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+</div>
+

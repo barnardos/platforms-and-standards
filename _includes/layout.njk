@@ -38,6 +38,8 @@
     <main>
       <h1 class="hero {% if themeModifier %}hero--{{ themeModifier }}{% endif %}"><span class="layout">{{ pageTitle }}</span></h1>
 
+      {% include 'components/breadcrumb.njk' %}
+
       <div class="layout">
 
         {{ content | safe }}
