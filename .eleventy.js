@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 const gitlog = require("gitlog").default;
 let markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const markdownItOptions = {
   html: true,
@@ -63,6 +64,9 @@ module.exports = function(eleventyConfig) {
 
   // Markdown-it
   eleventyConfig.setLibrary('md', markdownLib)
+
+  // Eleventy Navigation plugin for breadcrumb
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 };
 

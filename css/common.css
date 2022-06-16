@@ -48,3 +48,15 @@
 [class*="hero--"] {
   color: white;
 }
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  gap: 1rem;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  color: var(--grey-medium);
+  content: "›";
+  margin-inline-start: 1rem;
+}
