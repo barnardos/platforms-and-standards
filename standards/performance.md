@@ -128,7 +128,7 @@ Developers must apply the [rule of least power](https://en.wikipedia.org/wiki/Ru
 
 Static site generators must be the first technology assessed, ruling out any that can't be deployed with 0kb of JavaScript, and preferring those that start with 0kb of JavaScript _by default_.
 
-When client side JavaScript is needed use progressive enhancement, or progressively enhanced islands architecture. For example [partial hydration in Astro](https://docs.astro.build/en/core-concepts/partial-hydration/) and [11ty <is-land>](https://github.com/11ty/is-land).
+When client side JavaScript is needed use progressive enhancement, or progressively enhanced islands architecture. For example [partial hydration in Astro](https://docs.astro.build/en/core-concepts/partial-hydration/) and [11ty &lt;is-land&gt;](https://github.com/11ty/is-land).
 
 Fully client-side JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered.
 
