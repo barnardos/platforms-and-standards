@@ -35,7 +35,7 @@ All text content must have a Flesch-Kincaid Grade Level of 4.2 or lower. To see 
 
 Automated accessibility tools can pick up some problems, but manual testing is required to meet many success criteria. For example an automated tool cannot check if alternative text is descriptive and relevant.
 
-Site owners must never allow the use of accessibility overlays. The people who use Barnardo's products deserve better, and any product that carries the Barnardo's name must provide better.
+Product owners must never allow the use of accessibility overlays. The people who use Barnardo's products deserve better, and any product that carries the Barnardo's name must provide better.
 
 We recommend [TetraLogical](https://tetralogical.com/) for accessibility testing and reporting if the relevant expertise is not present in the team building your product.
 
