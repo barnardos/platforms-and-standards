@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Our standards platform | Barnardo&#39;s</title>
+    <title>Performance | Standards as a platform | Barnardo&#39;s</title>
     <!-- capture the CSS content as a Nunjucks variable -->
     
     <!-- feed it through our cssmin filter to minify -->
     <style>
-      @font-face{font-display:swap;font-family:proxima-nova;src:url("/fonts/proximanova-light-webfont.woff2") format("woff2"),url("/fonts/proximanova-light-webfont.woff") format("woff");font-weight:300;font-style:normal}@font-face{font-display:swap;font-family:proxima-nova;src:url("/fonts/proximanova-bold-webfont.woff2") format("woff2"),url("/fonts/proximanova-bold-webfont.woff") format("woff");font-weight:700;font-style:normal}:root{--grey-base:0 0%;--grey-dark:hsl(var(--grey-base) 11%);--grey-medium:hsl(var(--grey-base) 82%);--grey-medium-light:hsl(var(--grey-base) 91%);--grey-light:hsl(var(--grey-base) 96%);--yellow-base:39.1 100%;--yellow-medium:hsl(var(--yellow-base) 64%);--blue-base:185.7 100%;--blue-medium:hsl(var(--blue-base) 28%);--focus-outline:hsl(27.9, 100%, 45.5%);--purple-base:306.2 54.9%;--purple-medium:hsl(var(--purple-base) 27.8%);--orange-base:27.9 100%;--orange-medium:hsl(var(--orange-base) 37.5%);--pink-base:327.1 100%;--pink-medium:hsl(var(--pink-base) 40%);--step--2:clamp(0.79rem, calc(0.79rem + 0.01vw), 0.80rem);--step--1:clamp(0.89rem, calc(0.89rem + 0.13vw), 1.00rem);--step-0:clamp(1.00rem, calc(1.00rem + 0.29vw), 1.25rem);--step-1:clamp(1.13rem, calc(1.13rem + 0.50vw), 1.56rem);--step-2:clamp(1.27rem, calc(1.27rem + 0.79vw), 1.95rem);--step-3:clamp(1.42rem, calc(1.42rem + 1.16vw), 2.44rem);--step-4:clamp(1.60rem, calc(1.60rem + 1.66vw), 3.05rem);--step-5:clamp(1.80rem, calc(1.80rem + 2.30vw), 3.82rem)}html{block-size:100%}body{block-size:100%;color:var(--grey-dark);display:flex;flex-direction:column;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;font-size:var(--step-0);line-height:1.5;margin:0}header{box-shadow:inset 0 -1px 0 0 #e8e8e8;padding:26px 0}a:hover{text-decoration:none}img,svg{max-inline-size:100%}main>*{margin-block-end:2rem}h1,h2,h3{font-family:proxima-nova,Helvetica,Arial,sans-serif;line-height:1.2;margin:0 0 2rem}h1{font-size:var(--step-5)}h2{font-size:var(--step-4)}h3{font-size:var(--step-2);margin-block-end:1rem}ol,ul{list-style:none;margin:0;padding:0}li,p{margin:0 0 2rem;max-inline-size:65ch}aside{background-color:var(--grey-light);margin-block-end:2rem;max-inline-size:65ch;padding:16px}summary{inline-size:max-content}footer{background-color:var(--grey-light);border-block-start:4px solid var(--grey-medium-light);margin-block-start:auto;padding:32px 16px}small{font-size:var(--step--1)}:focus{outline:3px solid var(--focus-outline)}:focus:not(:focus-visible){outline:0}:focus-visible{outline:3px solid var(--focus-outline)}.layout{display:block;margin-inline:auto;max-inline-size:87.5rem;inline-size:95vw}.logo{block-size:3.875rem;display:block;inline-size:8.4375rem;max-inline-size:100%}.logo-img{block-size:100%;inline-size:100%}.hero{background:var(--yellow-medium);padding:3rem 0}.hero--standards{background:var(--blue-medium)}.hero--content{background:var(--orange-medium)}.hero--services{background:var(--purple-medium)}.hero--fundraising{background:var(--pink-medium)}[class*=hero--]{color:#fff}.breadcrumb{display:flex;gap:1rem}.breadcrumb li:not(:last-child)::after{color:var(--grey-medium);content:"›";margin-inline-start:1rem}.cards-grid{display:grid;gap:3rem;grid-template-columns:repeat(auto-fill,minmax(30ch,1fr))}.card{border:1px solid var(--grey-medium);border-radius:4px}.card-title{font-size:var(--step-3);padding:20px}.card-title--standards{background:var(--blue-medium)}.card-title--services{background:var(--purple-medium)}.card-title--content{background:var(--orange-medium)}.card-title--fundraising{background:var(--pink-medium)}.card-title a{color:#fff}.card-summary{margin:0;padding:0 20px 20px}
+      @font-face{font-display:swap;font-family:proxima-nova;src:url("/fonts/proximanova-light-webfont.woff2") format("woff2"),url("/fonts/proximanova-light-webfont.woff") format("woff");font-weight:300;font-style:normal}@font-face{font-display:swap;font-family:proxima-nova;src:url("/fonts/proximanova-bold-webfont.woff2") format("woff2"),url("/fonts/proximanova-bold-webfont.woff") format("woff");font-weight:700;font-style:normal}:root{--grey-base:0 0%;--grey-dark:hsl(var(--grey-base) 11%);--grey-medium:hsl(var(--grey-base) 82%);--grey-medium-light:hsl(var(--grey-base) 91%);--grey-light:hsl(var(--grey-base) 96%);--yellow-base:39.1 100%;--yellow-medium:hsl(var(--yellow-base) 64%);--blue-base:185.7 100%;--blue-medium:hsl(var(--blue-base) 28%);--focus-outline:hsl(27.9, 100%, 45.5%);--purple-base:306.2 54.9%;--purple-medium:hsl(var(--purple-base) 27.8%);--orange-base:27.9 100%;--orange-medium:hsl(var(--orange-base) 37.5%);--pink-base:327.1 100%;--pink-medium:hsl(var(--pink-base) 40%);--step--2:clamp(0.79rem, calc(0.79rem + 0.01vw), 0.80rem);--step--1:clamp(0.89rem, calc(0.89rem + 0.13vw), 1.00rem);--step-0:clamp(1.00rem, calc(1.00rem + 0.29vw), 1.25rem);--step-1:clamp(1.13rem, calc(1.13rem + 0.50vw), 1.56rem);--step-2:clamp(1.27rem, calc(1.27rem + 0.79vw), 1.95rem);--step-3:clamp(1.42rem, calc(1.42rem + 1.16vw), 2.44rem);--step-4:clamp(1.60rem, calc(1.60rem + 1.66vw), 3.05rem);--step-5:clamp(1.80rem, calc(1.80rem + 2.30vw), 3.82rem)}html{block-size:100%}body{block-size:100%;color:var(--grey-dark);display:flex;flex-direction:column;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;font-size:var(--step-0);line-height:1.5;margin:0}header{box-shadow:inset 0 -1px 0 0 #e8e8e8;padding:26px 0}a:hover{text-decoration:none}img,svg{max-inline-size:100%}main>*{margin-block-end:2rem}h1,h2,h3{font-family:proxima-nova,Helvetica,Arial,sans-serif;line-height:1.2;margin:0 0 2rem}h1{font-size:var(--step-5)}h2{font-size:var(--step-4)}h3{font-size:var(--step-2);margin-block-end:1rem}ol,ul{list-style:none;margin:0;padding:0}li,p{margin:0 0 2rem;max-inline-size:65ch}aside{background-color:var(--grey-light);margin-block-end:2rem;max-inline-size:65ch;padding:16px}summary{inline-size:max-content}footer{background-color:var(--grey-light);border-block-start:4px solid var(--grey-medium-light);margin-block-start:auto;padding:32px 16px}small{font-size:var(--step--1)}:focus{outline:3px solid var(--focus-outline)}:focus:not(:focus-visible){outline:0}:focus-visible{outline:3px solid var(--focus-outline)}.layout{display:block;margin-inline:auto;max-inline-size:87.5rem;inline-size:95vw}.logo{block-size:3.875rem;display:block;inline-size:8.4375rem;max-inline-size:100%}.logo-img{block-size:100%;inline-size:100%}.hero{background:var(--yellow-medium);padding:3rem 0}.hero--standards{background:var(--blue-medium)}.hero--content{background:var(--orange-medium)}.hero--services{background:var(--purple-medium)}.hero--fundraising{background:var(--pink-medium)}[class*=hero--]{color:#fff}.breadcrumb{display:flex;gap:1rem}.breadcrumb li:not(:last-child)::after{color:var(--grey-medium);content:"›";margin-inline-start:1rem}.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(25rem,1fr));list-style:initial;max-inline-size:65ch}.list--compact{grid-template-columns:repeat(auto-fill,minmax(12rem,1fr))}.list li{padding-inline-end:16px}
     </style>
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -38,7 +38,7 @@
     </header>
 
     <main>
-      <h1 class="hero hero--standards"><span class="layout">Our standards platform</span></h1>
+      <h1 class="hero hero--standards"><span class="layout">Front end performance</span></h1>
 
       
   <div class="layout">
@@ -53,6 +53,10 @@
           <a class="crumb" href="/standards/">Standards</a>
         </li>
       
+        <li>
+          <a class="crumb" href="/standards/web-performance/">Front end performance</a>
+        </li>
+      
     </ol>
   </div>
 
@@ -61,23 +65,112 @@
 
       <div class="layout">
 
-        
-<p>If you are building a Barnardo's online product this is where you'll find the resources to make it to our standards.</p>
-
-<div class="cards-grid">
-  
-  
-    <div class="card">
-      <h2 class="card-title card-title--standards"><a href="/standards/web-accessibility/">Web accessibility</a></h2>
-      <p class="card-summary">How we make sure people with disabilities can use our online products.</p>
-    </div>
-  
-    <div class="card">
-      <h2 class="card-title card-title--standards"><a href="/standards/web-performance/">Front end performance</a></h2>
-      <p class="card-summary">How we make our website fast and light for all our users.</p>
-    </div>
-  
-</div>
+        <h2>Why fast and light websites matter</h2>
+<p>Speedy websites are better for any organisation, but are especially important for Barnardo's.</p>
+<h3>Not everyone has an iPhone or Samsung</h3>
+<p>Below is a list of some of the device manufacturers we see in our analytics. They are almost all very cheap phones, and we know many of them are used by refugee and immigrant communities. Many of the models don't have 3G, and have a pre-installed browser with limited capabilities.</p>
+<p>These devices can't download, parse, compile, render or execute code at anything near the speed of a top of the range phone, and they stand no chance with a big JavaScript bundle.</p>
+<ul class="list list--compact">
+<li>Cubot</li>
+<li>DOOGEE</li>
+<li>Energizer</li>
+<li>Flexymove</li>
+<li>Gionee</li>
+<li>Infinix</li>
+<li>IPPO</li>
+<li>JXT</li>
+<li>Kyocera</li>
+<li>Meizu</li>
+<li>Mobicel</li>
+<li>Oukitel</li>
+<li>POCO</li>
+<li>Positivo</li>
+<li>Rokit</li>
+<li>Symphony</li>
+<li>UMI</li>
+<li>Umidigi</li>
+<li>WE</li>
+<li>XTOUCH</li>
+<li>Asus</li>
+<li>Blackberry</li>
+<li>Cubot</li>
+<li>Nokia</li>
+<li>OPPO</li>
+<li>Realme</li>
+<li>Tecno</li>
+<li>Alcatel</li>
+<li>Itel</li>
+<li>TCL</li>
+<li>Ulephone</li>
+<li>Vankyo</li>
+<li>Vivo</li>
+<li>Acer</li>
+<li>Archos</li>
+<li>Blackview</li>
+<li>BLUBOO</li>
+<li>BQ</li>
+<li>Casper</li>
+<li>CAT</li>
+<li>Condor</li>
+<li>Wileyfox</li>
+<li>Alba</li>
+<li>Coolpad</li>
+<li>Fairphone</li>
+<li>Doro</li>
+<li>RCA</li>
+<li>STK</li>
+<li>Wiko</li>
+<li>Cectdigi</li>
+<li>Chuwi</li>
+<li>Double Power</li>
+<li>Dragon Touch</li>
+<li>Egreat</li>
+<li>GoTab</li>
+<li>Hisense</li>
+<li>Leagoo</li>
+<li>Medion</li>
+<li>Neffos</li>
+<li>Nuu</li>
+<li>Razer</li>
+<li>Teclast</li>
+<li>Vernee</li>
+</ul>
+<h3>Data is expensive for a lot of people</h3>
+<p>At Barnardo's we know a lot of people who come to us for help don't have home internet. They rely on their data plan which is often pay as you go (PAYG). When that runs out they have to use free, often insecure, wifi or do without.</p>
+<p>The median weight of web pages delivered to phones is <a href="https://httparchive.org/reports/page-weight?start=2017_08_15&amp;end=latest&amp;view=list#bytesTotal">just over 2 megabytes</a>. Somebody who can afford a £5 per month top up, paying 10p per megabyte, can see 25 web pages at that weight.</p>
+<p>All web pages on Barnardo's products should be less than 100 kilobytes.</p>
+<h3>Network performance is bad for everyone some of the time</h3>
+<p>No matter how expensive your device or how many megabytes in your data plan, there are times when wifi dips or when mobile internet signal wobbles around the slow end of 3G. A light website has a better chance of delivery to users' devices under poor network conditions.</p>
+<h3>Conversions are better on fast websites</h3>
+<p>Faster web pages and interactions are strongly correllated with improved results. The <a href="https://wpostats.com/">evidence is overwhelming</a>.</p>
+<p>If your site is for delivering information, more people will see it on a fast web site.</p>
+<p>If your site is for increasing contact, more people will get in touch from a fast web site.</p>
+<p>If your site collects donations, more people will donate on a fast website.</p>
+<h2>Perceived performance</h2>
+<p>Every web page and interaction should feel fast. However the phrase 'perceived performance' often means using tricks to make a slow website feel fast, whether by making the waiting seem shorter or doing heavy lifting in the background (often making a page unresponsive). At Barnardo's we insist upon actual performance.</p>
+<h2>Measuring performance</h2>
+<p>Developers are free to choose the tools they prefer for measuring performance, however all pages must pass core web vitals in the Chrome User Experience Report (CrUX). A brand new site must pass core web vitals in a lab test.</p>
+<p>Product owners and developers must continually monitor the performance of their sites and fix any issues that arise.</p>
+<p>For experimenting and refining page performance we recommend using Cloudflare workers and WebPageTest to test ideas before deployment.</p>
+<h2>Architecture constraints</h2>
+<p>Developers must apply the <a href="https://en.wikipedia.org/wiki/Rule_of_least_power">rule of least power</a> when assessing front end technology for a web site or app.</p>
+<p>Static site generators must be the first technology assessed, ruling out any that can't be deployed with 0kb of JavaScript, and preferring those that start with 0kb of JavaScript <em>by default</em>.</p>
+<p>When client side JavaScript is needed use progressive enhancement, or progressively enhanced islands architecture. For example <a href="https://docs.astro.build/en/core-concepts/partial-hydration/">partial hydration in Astro</a> and <a href="https://github.com/11ty/is-land">11ty <is-land></a>.</p>
+<p>Fully client-side JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered.</p>
+<h2>Reading list</h2>
+<ul>
+<li><a href="https://jasonformat.com/islands-architecture/">https://jasonformat.com/islands-architecture/</a></li>
+<li><a href="https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/">https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/</a></li>
+</ul>
+<h2>Suggested feeds</h2>
+<ul>
+<li><a href="https://nooshu.com/blog/">https://nooshu.com/blog/</a></li>
+<li><a href="https://andydavies.me/">https://andydavies.me/</a></li>
+<li><a href="https://csswizardry.com/archive/">https://csswizardry.com/archive/</a></li>
+<li><a href="https://timkadlec.com/remembers/">https://timkadlec.com/remembers/</a></li>
+<li><a href="https://www.twitch.tv/webpagetest">https://www.twitch.tv/webpagetest</a></li>
+<li><a href="https://web.dev/tags/performance/">https://web.dev/tags/performance/</a></li>
+</ul>
 
 
       </div>
@@ -87,32 +180,8 @@
     <div class="layout">
       <aside>
         <details><summary>Changelog</summary><ul><li>
-          <time datetime="2022-06-16">2022-00-16</time>: Add breadcrumb
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/98db68d13546a701160fa7cc4dd94c93a2509ff5">98db68d</a>
-        </li><li>
-          <time datetime="2022-06-15">2022-00-15</time>: Add platforms' pages and themes
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/8686000fd267236aa7a66b7f321f6e2faf023c6f">8686000</a>
-        </li><li>
-          <time datetime="2022-06-10">2022-00-10</time>: Be consistent with using pageTaxonomy instead of pageName
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/e145f2b54ded1577294598e0389302bbdf44e0ac">e145f2b</a>
-        </li><li>
-          <time datetime="2022-06-10">2022-00-10</time>: Add platforms card links from home page
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/dd5611c194b0868fba8f759d96587666d80246f4">dd5611c</a>
-        </li><li>
-          <time datetime="2022-06-09">2022-00-09</time>: Add cards to link from platform page to platform items
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/0a9b61d8c721cd066a2a569837508026c4414aa2">0a9b61d</a>
-        </li><li>
-          <time datetime="2022-06-09">2022-00-09</time>: Update the title of the standards section page
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/6d894a8ed52a0a0469ea72fda0dbc1aa6b1d24cb">6d894a8</a>
-        </li><li>
-          <time datetime="2022-06-09">2022-00-09</time>: Revert "Prep for adding navigation"
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/1219476731e0db5d6a13e092a063b3a30cce0698">1219476</a>
-        </li><li>
-          <time datetime="2022-06-09">2022-00-09</time>: Prep for adding navigation
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/677519f305c895daa5c8c36070558c929e33878a">677519f</a>
-        </li><li>
-          <time datetime="2022-06-09">2022-00-09</time>: Add structure and initial content for standards section
-          <a href="https://github.com/barnardos/platforms-and-standards/commit/8ecab62697dac81c2adfda4326dee53e84d76360">8ecab62</a>
+          <time datetime="2022-06-16">2022-00-16</time>: Start an outline of the performance page
+          <a href="https://github.com/barnardos/platforms-and-standards/commit/40c43036a3a88d0e25d8369786ffb555aaad2180">40c4303</a>
         </li></ul></details>
       </aside>
     </div>
