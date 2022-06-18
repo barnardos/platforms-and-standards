@@ -5,7 +5,6 @@
 
 .card-title {
   font-size: var(--step-3);
-  padding: 20px;
 }
 
 .card-title--standards {
@@ -26,6 +25,8 @@
 
 .card-title a {
   color: white;
+  display: block;
+  padding: 20px;
 }
 
 .card-summary {
