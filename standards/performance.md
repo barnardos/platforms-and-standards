@@ -90,7 +90,7 @@ These devices can't download, parse, compile, render or execute code at anything
 
 ### Data is expensive for a lot of people
 
-At Barnardo's we know a lot of people who come to us for help don't have home internet. They rely on their data plan which is often pay as you go (PAYG). When that runs out they have to use free, often insecure, wifi or do without.
+At Barnardo's we know a lot of people who come to us for help don't have home internet. They rely on their data plan which is often pay as you go (PAYG). When that runs out they have to use free, often insecure wifi or do without.
 
 The median weight of web pages delivered to phones is [just over 2 megabytes](https://httparchive.org/reports/page-weight?start=2017_08_15&end=latest&view=list#bytesTotal). Somebody who can afford a £5 per month top up, paying 10p per megabyte, can see 25 web pages at that weight.
 
