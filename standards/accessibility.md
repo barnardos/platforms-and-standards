@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: main-aside
 title: Accessibility | Standards as a platform | Barnardo's
 desc: Barnardo's online platforms accessibility standards
 permalink: standards/web-accessibility/

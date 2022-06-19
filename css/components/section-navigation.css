@@ -1,0 +1,7 @@
+.section-navigation {
+  padding: 6px;
+}
+
+.section-navigation-title {
+  font-size: var(--step-2);
+}

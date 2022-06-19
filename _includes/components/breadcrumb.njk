@@ -1,5 +1,5 @@
 {% if pageTaxonomy != 'home' %}
-  <div class="layout">
+  <nav class="layout">
     {% set crumbs = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
     <ol class="breadcrumb">
       {% for crumb in crumbs %}
@@ -8,6 +8,6 @@
         </li>
       {% endfor %}
     </ol>
-  </div>
+  </nav>
 {% endif %}
 
