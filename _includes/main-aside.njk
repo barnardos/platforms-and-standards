@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ title }}</title>
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% include 'components/css.njk' %}
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  </head>
+
+  <body>
+    <header class="layout">
+      <a href="/" class="logo">{% include 'html/logo.html' %}</a>
+    </header>
+
+    <h1 class="hero {% if themeModifier %}hero--{{ themeModifier }}{% endif %}"><span class="layout">{{ pageTitle }}</span></h1>
+
+    {% include 'components/breadcrumb.njk' %}
+
+    <div class="layout layout--main-aside">
+
+      <main>
+
+        {{ content | safe }}
+
+      </main>
+
+      <div>
+
+        <aside>
+          {% include 'components/section-navigation.njk' %}
+        </aside>
+
+      </div>
+
+    </div>
+
+    <div class="layout">
+      <aside>
+        {% changelog filePath=page.inputPath %}
+      </aside>
+    </div>
+
+    <footer>
+      <small>© Barnardo’s</small>
+    </footer>
+  </body>
+</html>

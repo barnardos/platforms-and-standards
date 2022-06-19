@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: main-aside
 title: Performance | Standards as a platform | Barnardo's
 desc: Barnardo's online platforms performance standards
 permalink: standards/web-performance/

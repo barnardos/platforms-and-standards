@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   list-style: initial;
-  max-inline-size: 65ch;
   padding-inline-start: 1rem;
 }
 

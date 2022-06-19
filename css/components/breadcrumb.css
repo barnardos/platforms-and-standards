@@ -1,0 +1,17 @@
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block-end: 2rem;
+}
+
+.breadcrumb li {
+  margin-block-end: 0;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  color: var(--grey-dark);
+  content: "›";
+  margin-inline-start: 1rem;
+}

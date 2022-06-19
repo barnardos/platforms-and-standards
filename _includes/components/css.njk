@@ -1,0 +1,25 @@
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+      {% include "css/fonts.css" %}
+      {% include "css/elements.css" %}
+      {% include "css/common.css" %}
+      {% if pageTaxonomy == 'home' %}
+        {% include "css/components/cards-grid.css" %}
+        {% include "css/components/card.css" %}
+      {% endif %}
+      {% if pageTaxonomy != 'home' %}
+        {% include "css/components/breadcrumb.css" %}
+      {% endif %}
+      {% if pageTaxonomy == 'platform' %}
+        {% include "css/components/cards-grid.css" %}
+        {% include "css/components/card.css" %}
+      {% endif %}
+      {% if pageTaxonomy == 'content' %}
+        {% include "css/components/list.css" %}
+        {% include "css/components/section-navigation.css" %}
+      {% endif %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
