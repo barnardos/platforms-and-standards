@@ -3,7 +3,9 @@ const { DateTime } = require("luxon");
 const gitlog = require("gitlog").default;
 let markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
+const markdownItAnchor = require('markdown-it-anchor');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginTOC = require('eleventy-plugin-toc');
 
 const markdownItOptions = {
   html: true,
@@ -11,7 +13,9 @@ const markdownItOptions = {
   linkify: true
 }
 
-const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+// To be able to use CSS class names in markdown
+// and generate IDs on headings
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(markdownItAnchor);
 
 module.exports = function(eleventyConfig) {
   // Use assets
@@ -63,10 +67,13 @@ module.exports = function(eleventyConfig) {
   });
 
   // Markdown-it
-  eleventyConfig.setLibrary('md', markdownLib)
+  eleventyConfig.setLibrary('md', markdownLib);
 
   // Eleventy Navigation plugin for breadcrumb
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  // Table of contents filter
+  eleventyConfig.addPlugin(pluginTOC);
 
 };
 
