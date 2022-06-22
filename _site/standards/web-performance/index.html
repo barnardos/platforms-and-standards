@@ -139,7 +139,7 @@
 </ul>
 <h3>Data is expensive for a lot of people</h3>
 <p>At Barnardo's we know a lot of people who come to us for help don't have home internet. They rely on their data plan which is often pay as you go (PAYG). When that runs out they have to use free, often insecure wifi or do without.</p>
-<p>The median weight of web pages delivered to phones is <a href="https://httparchive.org/reports/page-weight?start=2017_08_15&amp;end=latest&amp;view=list#bytesTotal">just over 2 megabytes</a>. Somebody who can afford a £5 per month top up, paying 10p per megabyte, can see 25 web pages at that weight.</p>
+<p>The median weight of web pages delivered to phones is <a href="https://httparchive.org/reports/page-weight?start=2017_08_15&amp;end=latest&amp;view=list#bytesTotal">just over 2 megabytes</a>. Somebody who can afford a £5 per month top up, paying 10p per megabyte, can only see 25 web pages at that weight. And that's if they don't use email, social media or messaging apps.</p>
 <p>All web pages on Barnardo's products should be less than 100 kilobytes.</p>
 <h3>Network performance is bad for everyone some of the time</h3>
 <p>No matter how expensive your device or how many megabytes in your data plan, there are times when wifi dips or when mobile internet signal wobbles around the slow end of 3G. A light website has a better chance of delivery to users' devices under poor network conditions.</p>
@@ -158,16 +158,19 @@
 <p>Developers must apply the <a href="https://en.wikipedia.org/wiki/Rule_of_least_power">rule of least power</a> when assessing front end technology for a web site or app.</p>
 <p>Static site generators must be the first technology assessed, ruling out any that can't be deployed with 0kb of JavaScript, and preferring those that start with 0kb of JavaScript <em>by default</em>.</p>
 <p>When client side JavaScript is needed use progressive enhancement, or progressively enhanced islands architecture. For example <a href="https://docs.astro.build/en/core-concepts/partial-hydration/">partial hydration in Astro</a> and <a href="https://github.com/11ty/is-land">11ty &lt;is-land&gt;</a>.</p>
-<p>Fully client-side JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered.</p>
+<p>Fully client-side rendered JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered. Server side rendering with full hydration is strongly discouraged, and should only be considered as a last resort.</p>
 <h2>Reading list</h2>
 <ul>
 <li><a href="https://jasonformat.com/islands-architecture/">https://jasonformat.com/islands-architecture/</a></li>
 <li><a href="https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/">https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/</a></li>
+<li><a href="https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/">https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/</a></li>
+<li><a href="https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/">https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/</a></li>
 </ul>
 <h2>Suggested feeds</h2>
 <ul>
 <li><a href="https://nooshu.com/blog/">https://nooshu.com/blog/</a></li>
 <li><a href="https://andydavies.me/">https://andydavies.me/</a></li>
+<li><a href="https://infrequently.org/">https://infrequently.org/</a></li>
 <li><a href="https://csswizardry.com/archive/">https://csswizardry.com/archive/</a></li>
 <li><a href="https://timkadlec.com/remembers/">https://timkadlec.com/remembers/</a></li>
 <li><a href="https://www.twitch.tv/webpagetest">https://www.twitch.tv/webpagetest</a></li>
@@ -195,6 +198,9 @@
     <div class="layout">
       <aside>
         <details><summary>Changelog</summary><ul><li>
+          <time datetime="2022-06-19">2022-00-19</time>: Add 2 column navigation with section navigation
+          <a href="https://github.com/barnardos/platforms-and-standards/commit/fe8d28407eb56d60bc947e74412573c9c3095b32">fe8d284</a>
+        </li><li>
           <time datetime="2022-06-18">2022-00-18</time>: Remove comma for readability
           <a href="https://github.com/barnardos/platforms-and-standards/commit/9fd7cb71d553f5105838fbbcaa04bcf3055b2442">9fd7cb7</a>
         </li><li>

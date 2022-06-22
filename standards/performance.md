@@ -92,7 +92,7 @@ These devices can't download, parse, compile, render or execute code at anything
 
 At Barnardo's we know a lot of people who come to us for help don't have home internet. They rely on their data plan which is often pay as you go (PAYG). When that runs out they have to use free, often insecure wifi or do without.
 
-The median weight of web pages delivered to phones is [just over 2 megabytes](https://httparchive.org/reports/page-weight?start=2017_08_15&end=latest&view=list#bytesTotal). Somebody who can afford a £5 per month top up, paying 10p per megabyte, can see 25 web pages at that weight.
+The median weight of web pages delivered to phones is [just over 2 megabytes](https://httparchive.org/reports/page-weight?start=2017_08_15&end=latest&view=list#bytesTotal). Somebody who can afford a £5 per month top up, paying 10p per megabyte, can only see 25 web pages at that weight. And that's if they don't use email, social media or messaging apps.
 
 All web pages on Barnardo's products should be less than 100 kilobytes.
 
@@ -130,17 +130,20 @@ Static site generators must be the first technology assessed, ruling out any tha
 
 When client side JavaScript is needed use progressive enhancement, or progressively enhanced islands architecture. For example [partial hydration in Astro](https://docs.astro.build/en/core-concepts/partial-hydration/) and [11ty &lt;is-land&gt;](https://github.com/11ty/is-land).
 
-Fully client-side JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered.
+Fully client-side rendered JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered. Server side rendering with full hydration is strongly discouraged, and should only be considered as a last resort.
 
 ## Reading list
 
 - https://jasonformat.com/islands-architecture/
 - https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/
+- https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/
+- https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/
 
 ## Suggested feeds
 
 - https://nooshu.com/blog/
 - https://andydavies.me/
+- https://infrequently.org/
 - https://csswizardry.com/archive/
 - https://timkadlec.com/remembers/
 - https://www.twitch.tv/webpagetest
