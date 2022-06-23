@@ -67,9 +67,9 @@
 
       <main>
 
-        <h2>Why fast and light websites matter</h2>
+        <h2 id="why-fast-and-light-websites-matter" tabindex="-1">Why fast and light websites matter</h2>
 <p>Speedy websites are better for any organisation, but are especially important for Barnardo's.</p>
-<h3>Not everyone has an iPhone or Samsung</h3>
+<h3 id="not-everyone-has-an-iphone-or-samsung" tabindex="-1">Not everyone has an iPhone or Samsung</h3>
 <p>Below is a list of some of the device manufacturers we see in our analytics. They are almost all very cheap phones, and we know many of them are used by refugee and immigrant communities. Many of the models don't have 3G, and have a pre-installed browser with limited capabilities.</p>
 <p>These devices can't download, parse, compile, render or execute code at anything near the speed of a top of the range phone, and they stand no chance with a big JavaScript bundle.</p>
 <ul class="list list--compact">
@@ -137,36 +137,36 @@
 <li>Teclast</li>
 <li>Vernee</li>
 </ul>
-<h3>Data is expensive for a lot of people</h3>
+<h3 id="data-is-expensive-for-a-lot-of-people" tabindex="-1">Data is expensive for a lot of people</h3>
 <p>At Barnardo's we know a lot of people who come to us for help don't have home internet. They rely on their data plan which is often pay as you go (PAYG). When that runs out they have to use free, often insecure wifi or do without.</p>
 <p>The median weight of web pages delivered to phones is <a href="https://httparchive.org/reports/page-weight?start=2017_08_15&amp;end=latest&amp;view=list#bytesTotal">just over 2 megabytes</a>. Somebody who can afford a £5 per month top up, paying 10p per megabyte, can only see 25 web pages at that weight. And that's if they don't use email, social media or messaging apps.</p>
 <p>All web pages on Barnardo's products should be less than 100 kilobytes.</p>
-<h3>Network performance is bad for everyone some of the time</h3>
+<h3 id="network-performance-is-bad-for-everyone-some-of-the-time" tabindex="-1">Network performance is bad for everyone some of the time</h3>
 <p>No matter how expensive your device or how many megabytes in your data plan, there are times when wifi dips or when mobile internet signal wobbles around the slow end of 3G. A light website has a better chance of delivery to users' devices under poor network conditions.</p>
-<h3>Conversions are better on fast websites</h3>
+<h3 id="conversions-are-better-on-fast-websites" tabindex="-1">Conversions are better on fast websites</h3>
 <p>Faster web pages and interactions are strongly correllated with improved results. The <a href="https://wpostats.com/">evidence is overwhelming</a>.</p>
 <p>If your site is for delivering information, more people will see it on a fast web site.</p>
 <p>If your site is for increasing contact, more people will get in touch from a fast web site.</p>
 <p>If your site collects donations, more people will donate on a fast website.</p>
-<h2>Perceived performance</h2>
+<h2 id="perceived-performance" tabindex="-1">Perceived performance</h2>
 <p>Every web page and interaction should feel fast. However the phrase 'perceived performance' often means using tricks to make a slow website feel fast, whether by making the waiting seem shorter or doing heavy lifting in the background (often making a page unresponsive). At Barnardo's we insist upon actual performance.</p>
-<h2>Measuring performance</h2>
+<h2 id="measuring-performance" tabindex="-1">Measuring performance</h2>
 <p>Developers are free to choose the tools they prefer for measuring performance, however all pages must pass core web vitals in the Chrome User Experience Report (CrUX). A brand new site must pass core web vitals in a lab test.</p>
 <p>Product owners and developers must continually monitor the performance of their sites and fix any issues that arise.</p>
 <p>For experimenting and refining page performance we recommend using Cloudflare workers and WebPageTest to test ideas before deployment.</p>
-<h2>Architecture constraints</h2>
+<h2 id="architecture-constraints" tabindex="-1">Architecture constraints</h2>
 <p>Developers must apply the <a href="https://en.wikipedia.org/wiki/Rule_of_least_power">rule of least power</a> when assessing front end technology for a web site or app.</p>
 <p>Static site generators must be the first technology assessed, ruling out any that can't be deployed with 0kb of JavaScript, and preferring those that start with 0kb of JavaScript <em>by default</em>.</p>
 <p>When client side JavaScript is needed use progressive enhancement, or progressively enhanced islands architecture. For example <a href="https://docs.astro.build/en/core-concepts/partial-hydration/">partial hydration in Astro</a> and <a href="https://github.com/11ty/is-land">11ty &lt;is-land&gt;</a>.</p>
 <p>Fully client-side rendered JavaScript frameworks are not suitable for any Barnardo's product or our users, therefore must not be considered. Server side rendering with full hydration is strongly discouraged, and should only be considered as a last resort.</p>
-<h2>Reading list</h2>
+<h2 id="reading-list" tabindex="-1">Reading list</h2>
 <ul>
 <li><a href="https://jasonformat.com/islands-architecture/">https://jasonformat.com/islands-architecture/</a></li>
 <li><a href="https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/">https://nooshu.com/blog/2021/03/14/setting-up-cloudflare-workers-for-web-performance-optimisation-and-testing/</a></li>
 <li><a href="https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/">https://timkadlec.com/remembers/2021-01-12-cost-of-client-side-ab-testing/</a></li>
 <li><a href="https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/">https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/</a></li>
 </ul>
-<h2>Suggested feeds</h2>
+<h2 id="suggested-feeds" tabindex="-1">Suggested feeds</h2>
 <ul>
 <li><a href="https://nooshu.com/blog/">https://nooshu.com/blog/</a></li>
 <li><a href="https://andydavies.me/">https://andydavies.me/</a></li>
@@ -187,9 +187,9 @@
   <h2 class="section-navigation-title">Also in Standards</h2>
 
   <ul><li><a href="/standards/web-accessibility/">Web accessibility</a></li>
-<li><a href="/standards/web-performance/">Front end performance</a></li>
 <li><a href="/standards/creating-content/">Creating content</a><ul><li><a href="/standards/creating-content/content-principles/">Content principles</a></li>
-<li><a href="/standards/creating-content/writing-guidelines/">Writing guidelines</a></li></ul></li></ul>
+<li><a href="/standards/creating-content/writing-guidelines/">Writing guidelines</a></li></ul></li>
+<li><a href="/standards/web-performance/">Front end performance</a></li></ul>
 </nav>
         </aside>
 
