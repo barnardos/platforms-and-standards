@@ -9,6 +9,10 @@
   grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
 }
 
+.list--ordered {
+  list-style: decimal;
+}
+
 .list li {
   padding-inline-end: 16px;
 }
