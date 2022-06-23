@@ -15,7 +15,7 @@ eleventyNavigation:
 
 These guidelines are for everyone who works for and with Barnardo’s to help bring the brand and what we stand for to life.
 
-Use our writing guidelines and content principles to ensure all our content is clear and consistent in tone and style, relevant, useful and user-friendly.
+Use our [writing guidelines](/standards/creating-content/writing-guidelines/) and [content principles](/standards/creating-content/content-principles/) to ensure all our content is clear and consistent in tone and style, relevant, useful and user-friendly.
 
 The [brand guidelines (PDF)](https://inside.barnardos.org.uk/sites/default/files/uploads/Barnardos%20brand%20guidelines.pdf) include general writing guidance as well as information such as how to use font, typography, media, and visual artifacts.
 
