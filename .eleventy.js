@@ -18,8 +18,9 @@ const markdownItOptions = {
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(markdownItAnchor);
 
 module.exports = function(eleventyConfig) {
-  // Use assets
+  // Use files and folders from root in _site
   eleventyConfig.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy("_headers");
 
   // Watch for changes
   eleventyConfig.addWatchTarget("css");
