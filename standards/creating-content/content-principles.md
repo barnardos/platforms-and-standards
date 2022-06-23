@@ -11,7 +11,7 @@ themeModifier: standards
 eleventyNavigation:
   key: Content principles
   parent: Creating content
-toc: true
+longPage: true
 ---
 
 

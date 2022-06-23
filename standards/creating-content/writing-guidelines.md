@@ -11,7 +11,7 @@ themeModifier: standards
 eleventyNavigation:
   key: Writing guidelines
   parent: Creating content
-toc: true
+longPage: true
 ---
 
 ## Introduction – how to use this guide
