@@ -4,7 +4,7 @@
     <ol class="breadcrumb">
       {% for crumb in crumbs %}
         <li>
-          <a class="crumb" href="{{ crumb.url | url }}">{{ crumb.title }}</a>
+          <a class="crumb" href="{{ crumb.url | url }}" {% if crumb.url == page.url %}aria-current="page"{% endif %}>{{ crumb.title }}</a>
         </li>
       {% endfor %}
     </ol>
