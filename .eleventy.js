@@ -73,7 +73,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // Table of contents filter
-  eleventyConfig.addPlugin(pluginTOC);
+  eleventyConfig.addPlugin(pluginTOC, {
+    wrapper: 'div',
+    wrapperClass: ''
+  });
 
 };
 

@@ -11,6 +11,7 @@ themeModifier: standards
 eleventyNavigation:
   key: Front end performance
   parent: Standards
+longPage: true
 ---
 
 ## Why fast and light websites matter

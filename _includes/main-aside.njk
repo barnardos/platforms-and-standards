@@ -24,8 +24,12 @@
 
       <main>
 
-        <h2>On this page</h2>
-        {{ content | toc | safe }}
+        {% if longPage and content | toc %}
+          <nav class="toc">
+            <h2>On this page</h2>
+            {{ content | toc | safe }}
+          </nav>
+        {% endif %}
 
         {{ content | safe }}
 
