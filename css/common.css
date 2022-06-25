@@ -10,7 +10,7 @@
   inline-size: 95vw;
 }
 
-@media screen and (min-width:47rem) {
+@media screen and (min-width: 47rem) {
   .layout--main-aside {
     display: grid;
     gap: 16px;

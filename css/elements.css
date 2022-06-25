@@ -9,7 +9,7 @@
   --yellow-medium: hsl(var(--yellow-base) 64%);
   --blue-base: 185.7 100%;
   --blue-medium: hsl(var(--blue-base) 28%);
-  --focus-outline: hsl(27.9, 100%, 45.5%);
+  --focus-outline: hsl(27.9deg 100% 45.5%);
   --purple-base: 306.2 54.9%;
   --purple-medium: hsl(var(--purple-base) 27.8%);
   --orange-base: 27.9 100%;
@@ -131,6 +131,7 @@ small {
   outline: 3px solid var(--focus-outline);
 }
 
+/* stylelint-disable no-descending-specificity */
 *:focus:not(:focus-visible) {
   outline: none;
 }
@@ -138,3 +139,5 @@ small {
 *:focus-visible {
   outline: 3px solid var(--focus-outline);
 }
+
+/* styleling-enable no-descending-specificity */
