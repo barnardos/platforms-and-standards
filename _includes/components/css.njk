@@ -3,16 +3,12 @@
       {% include "css/fonts.css" %}
       {% include "css/elements.css" %}
       {% include "css/common.css" %}
-      {% if pageTaxonomy == 'home' %}
+      {% if pageTaxonomy == 'home' or pageTaxonomy == 'platform' %}
         {% include "css/components/cards-grid.css" %}
         {% include "css/components/card.css" %}
       {% endif %}
       {% if pageTaxonomy != 'home' %}
         {% include "css/components/breadcrumb.css" %}
-      {% endif %}
-      {% if pageTaxonomy == 'platform' %}
-        {% include "css/components/cards-grid.css" %}
-        {% include "css/components/card.css" %}
       {% endif %}
       {% if pageTaxonomy == 'content' %}
         {% include "css/components/list.css" %}
