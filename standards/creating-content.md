@@ -11,6 +11,7 @@ themeModifier: standards
 eleventyNavigation:
   key: Creating content
   parent: Standards
+hasSubs: true
 ---
 
 These guidelines are for everyone who works for and with Barnardo’s to help bring the brand and what we stand for to life.
