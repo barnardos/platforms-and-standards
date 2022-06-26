@@ -4,8 +4,7 @@
     <div class="cards-grid">
       {% for childPage in childPages %}
         <div class="card">
-          <h3 class="card-title card-title--{{ themeModifier }}"><a href="{{ childPage.url | url }}">{{ childPage.title }}</a></h3>
-          <p class="card-summary">{{ extract }}</p>
+          <span class="card-title card-title--{{ themeModifier }}"><a href="{{ childPage.url | url }}">{{ childPage.title }}</a></span>
         </div>
       {% endfor %}
     </div>

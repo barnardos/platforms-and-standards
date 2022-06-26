@@ -4,7 +4,10 @@
 }
 
 .card-title {
+  display: block;
+  font-family: proxima-nova, Helvetica, Arial, sans-serif;
   font-size: var(--step-3);
+  font-weight: bold;
 }
 
 .card-title--standards {
