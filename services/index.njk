@@ -16,17 +16,17 @@ eleventyNavigation:
 ---
 
 <div class="text">
-  <p>Nothing here yet.</p>
+	<p>Nothing here yet.</p>
 </div>
 
 <div class="cards-grid">
-  {% set serviceList = collections.service %}
-  {% for service in serviceList %}
-    <div class="card">
-      <h2 class="card-title card-title--{{ service.data.themeModifier }}"><a href="/{{ service.data.permalink }}">{{ service.data.pageTitle }}</a></h2>
-      <p class="card-summary">{{ service.data.extract }}</p>
-    </div>
-  {% endfor %}
+	{% set serviceList = collections.service %}
+	{% for service in serviceList %}
+		<div class="card">
+			<h2 class="card-title card-title--{{ service.data.themeModifier }}"><a href="/{{ service.data.permalink }}">{{ service.data.pageTitle }}</a></h2>
+			<p class="card-summary">{{ service.data.extract }}</p>
+		</div>
+	{% endfor %}
 </div>
 
 
