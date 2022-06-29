@@ -16,17 +16,17 @@ eleventyNavigation:
 ---
 
 <div class="text">
-  <p>Nothing here yet.</p>
+	<p>Nothing here yet.</p>
 </div>
 
 <div class="cards-grid">
-  {% set fundraisingList = collections.fundraising %}
-  {% for fundraising in fundraisingList %}
-    <div class="card">
-      <h2 class="card-title card-title--{{ fundraising.data.themeModifier }}"><a href="/{{ fundraising.data.permalink }}">{{ fundraising.data.pageTitle }}</a></h2>
-      <p class="card-summary">{{ fundraising.data.extract }}</p>
-    </div>
-  {% endfor %}
+	{% set fundraisingList = collections.fundraising %}
+	{% for fundraising in fundraisingList %}
+		<div class="card">
+			<h2 class="card-title card-title--{{ fundraising.data.themeModifier }}"><a href="/{{ fundraising.data.permalink }}">{{ fundraising.data.pageTitle }}</a></h2>
+			<p class="card-summary">{{ fundraising.data.extract }}</p>
+		</div>
+	{% endfor %}
 </div>
 
 

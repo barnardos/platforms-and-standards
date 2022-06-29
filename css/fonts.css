@@ -1,19 +1,19 @@
 @font-face {
-  font-display: swap;
-  font-family: proxima-nova;
-  src:
-    url("/fonts/proximanova-light-webfont.woff2") format("woff2"),
-    url("/fonts/proximanova-light-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
+	font-display: swap;
+	font-family: proxima-nova;
+	src:
+		url("/fonts/proximanova-light-webfont.woff2") format("woff2"),
+		url("/fonts/proximanova-light-webfont.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-  font-display: swap;
-  font-family: proxima-nova;
-  src:
-    url("/fonts/proximanova-bold-webfont.woff2") format("woff2"),
-    url("/fonts/proximanova-bold-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+	font-display: swap;
+	font-family: proxima-nova;
+	src:
+		url("/fonts/proximanova-bold-webfont.woff2") format("woff2"),
+		url("/fonts/proximanova-bold-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
 }

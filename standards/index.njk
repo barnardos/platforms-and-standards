@@ -16,15 +16,15 @@ eleventyNavigation:
 ---
 
 <div class="text">
-  <p>If you are building a Barnardo's online product this is where you'll find the resources to make it to our standards.</p>
+	<p>If you are building a Barnardo's online product this is where you'll find the resources to make it to our standards.</p>
 </div>
 
 <div class="cards-grid">
-  {% set standardsList = collections.standard %}
-  {% for standard in standardsList %}
-    <div class="card">
-      <h2 class="card-title card-title--{{ standard.data.themeModifier }}"><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h2>
-      <p class="card-summary">{{ standard.data.extract }}</p>
-    </div>
-  {% endfor %}
+	{% set standardsList = collections.standard %}
+	{% for standard in standardsList %}
+		<div class="card">
+			<h2 class="card-title card-title--{{ standard.data.themeModifier }}"><a href="/{{ standard.data.permalink }}">{{ standard.data.pageTitle }}</a></h2>
+			<p class="card-summary">{{ standard.data.extract }}</p>
+		</div>
+	{% endfor %}
 </div>
