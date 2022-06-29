@@ -1,18 +1,18 @@
 .list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-  list-style: initial;
-  padding-inline-start: 1rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+	list-style: initial;
+	padding-inline-start: 1rem;
 }
 
 .list--compact {
-  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
 }
 
 .list--ordered {
-  list-style: decimal;
+	list-style: decimal;
 }
 
 .list li {
-  padding-inline-end: 16px;
+	padding-inline-end: 16px;
 }

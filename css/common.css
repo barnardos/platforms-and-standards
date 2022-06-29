@@ -4,70 +4,70 @@
 
 /* Layout column */
 .layout {
-  display: block;
-  margin-inline: auto;
-  max-inline-size: 87.5rem;
-  inline-size: 95vw;
+	display: block;
+	margin-inline: auto;
+	max-inline-size: 87.5rem;
+	inline-size: 95vw;
 }
 
 @media screen and (min-width: 47rem) {
-  .layout--main-aside {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-  }
+	.layout--main-aside {
+		display: grid;
+		gap: 16px;
+		grid-template-columns: auto auto;
+		justify-content: space-between;
+	}
 
-  .layout--main-aside main {
-    max-inline-size: 65ch;
-  }
+	.layout--main-aside main {
+		max-inline-size: 65ch;
+	}
 
-  .layout--main-aside aside {
-    box-sizing: border-box;
-    max-inline-size: fit-content;
-  }
+	.layout--main-aside aside {
+		box-sizing: border-box;
+		max-inline-size: fit-content;
+	}
 }
 
 /* Header */
 .logo {
-  block-size: 3.875rem;
-  display: block;
-  inline-size: 8.4375rem;
-  max-inline-size: 100%;
+	block-size: 3.875rem;
+	display: block;
+	inline-size: 8.4375rem;
+	max-inline-size: 100%;
 }
 
 .logo-img {
-  block-size: 100%;
-  inline-size: 100%;
+	block-size: 100%;
+	inline-size: 100%;
 }
 
 /* Hero */
 .hero {
-  background: var(--yellow-medium);
-  padding: 3rem 0;
+	background: var(--yellow-medium);
+	padding: 3rem 0;
 }
 
 .hero--standards {
-  background: var(--blue-medium);
+	background: var(--blue-medium);
 }
 
 .hero--content {
-  background: var(--orange-medium);
+	background: var(--orange-medium);
 }
 
 .hero--services {
-  background: var(--purple-medium);
+	background: var(--purple-medium);
 }
 
 .hero--fundraising {
-  background: var(--pink-medium);
+	background: var(--pink-medium);
 }
 
 [class*="hero--"] {
-  color: white;
+	color: white;
 }
 
 /* Column of text */
 .text {
-  max-width: 65ch;
+	max-width: 65ch;
 }

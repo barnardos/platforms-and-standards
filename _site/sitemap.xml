@@ -43,14 +43,6 @@
     
        
         <url>
-            <loc>https://platforms.barnardos.org.uk/standards/</loc>
-            <lastmod>2022-06-19T16:51:04.043Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
             <loc>https://platforms.barnardos.org.uk/standards/creating-content/content-principles/</loc>
             <lastmod>2022-06-23T18:00:22.139Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -77,6 +69,14 @@
         <url>
             <loc>https://platforms.barnardos.org.uk/standards/creating-content/</loc>
             <lastmod>2022-06-25T11:14:20.810Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://platforms.barnardos.org.uk/standards/</loc>
+            <lastmod>2022-06-29T17:24:16.268Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
