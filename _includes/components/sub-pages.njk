@@ -1,12 +1,12 @@
 {% set childPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
 {% if childPages.length > 0 %}
-  <nav>
-    <div class="cards-grid">
-      {% for childPage in childPages %}
-        <div class="card">
-          <span class="card-title card-title--{{ themeModifier }}"><a href="{{ childPage.url | url }}">{{ childPage.title }}</a></span>
-        </div>
-      {% endfor %}
-    </div>
-  </nav>
+	<nav>
+		<div class="cards-grid">
+			{% for childPage in childPages %}
+				<div class="card">
+					<span class="card-title card-title--{{ themeModifier }}"><a href="{{ childPage.url | url }}">{{ childPage.title }}</a></span>
+				</div>
+			{% endfor %}
+		</div>
+	</nav>
 {% endif %}

@@ -1,14 +1,14 @@
 <aside>
-  <nav class="section-navigation">
-    <h2 class="section-navigation-title">Also in {{ eleventyNavigation.parent }}</h2>
+	<nav class="section-navigation">
+		<h2 class="section-navigation-title">Also in {{ eleventyNavigation.parent }}</h2>
 
-    {% set siblings = collections.all | eleventyNavigation(eleventyNavigation.parent, { includeSelf: true }) %}
-        <ul>
-        {% for sibling in siblings %}
-          <li>
-            <a href="{{ sibling.url | url }}" {% if sibling.url == page.url %}aria-current="page"{% endif %}>{{ sibling.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-  </nav>
+		{% set siblings = collections.all | eleventyNavigation(eleventyNavigation.parent, { includeSelf: true }) %}
+				<ul>
+				{% for sibling in siblings %}
+					<li>
+						<a href="{{ sibling.url | url }}" {% if sibling.url == page.url %}aria-current="page"{% endif %}>{{ sibling.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+	</nav>
 </aside>
