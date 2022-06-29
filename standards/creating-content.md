@@ -1,17 +1,20 @@
----
-layout: main-aside
-title: Creating content | Standards as a platform | Barnardo's
-desc: Barnardo's online platforms content standards
-permalink: standards/creating-content/
-pageTitle: Creating content
-pageTaxonomy: content
-tags: standard
-extract: How we create content that is consistent in tone and style, relevant, useful and user-friendly.
-themeModifier: standards
-eleventyNavigation:
-  key: Creating content
-  parent: Standards
-hasSubs: true
+---js
+{
+	layout: "main-aside",
+	title: "Creating content | Standards as a platform | Barnardo's",
+	desc: "Barnardo's online platforms content standards",
+	permalink: "standards/creating-content/",
+	pageTitle: "Creating content",
+	pageTaxonomy: "content",
+	tags: "standard",
+	extract: "How we create content that is consistent in tone and style, relevant, useful and user-friendly.",
+	themeModifier: "standards",
+	eleventyNavigation: {
+		key: "Creating content",
+		parent: "Standards"
+	},
+	hasSubs: true
+}
 ---
 
 These guidelines are for everyone who works for and with Barnardo’s to help bring the brand and what we stand for to life.

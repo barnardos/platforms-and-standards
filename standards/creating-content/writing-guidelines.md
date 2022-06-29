@@ -1,17 +1,20 @@
----
-layout: main-aside
-title: Writing guidelines | Content | Standards as a platform | Barnardo's
-desc: Barnardo's online platforms writing guidelines
-permalink: standards/creating-content/writing-guidelines/
-pageTitle: Writing guidelines
-pageTaxonomy: content
-tags: conent-standard
-extract: How we create content that is consistent in tone and style, relevant, useful and user-friendly.
-themeModifier: standards
-eleventyNavigation:
-  key: Writing guidelines
-  parent: Creating content
-longPage: true
+---js
+{
+	layout: "main-aside",
+	title: "Writing guidelines | Content | Standards as a platform | Barnardo's",
+	desc: "Barnardo's online platforms writing guidelines",
+	permalink: "standards/creating-content/writing-guidelines/",
+	pageTitle: "Writing guidelines",
+	pageTaxonomy: "content",
+	tags: "content-standard",
+	extract: "How we create content that is consistent in tone and style, relevant, useful and user-friendly.",
+	themeModifier: "standards",
+	eleventyNavigation: {
+		key: "Writing guidelines",
+		parent: "Creating content"
+	},
+	longPage: true
+}
 ---
 
 ## Introduction – how to use this guide

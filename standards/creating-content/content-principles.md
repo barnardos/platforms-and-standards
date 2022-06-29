@@ -1,17 +1,20 @@
----
-layout: main-aside
-title: Content principles | Content | Standards as a platform | Barnardo's
-desc: Barnardo's online platforms content principles
-permalink: standards/creating-content/content-principles/
-pageTitle: Content principles
-pageTaxonomy: content
-tags: conent-standard
-extract: The principles we use to guide our content creation and use.
-themeModifier: standards
-eleventyNavigation:
-  key: Content principles
-  parent: Creating content
-longPage: true
+---js
+{
+	layout: "main-aside",
+	title: "Content principles | Content | Standards as a platform | Barnardo's",
+	desc: "Barnardo's online platforms content principles",
+	permalink: "standards/creating-content/content-principles/",
+	pageTitle: "Content principles",
+	pageTaxonomy: "content",
+	tags: "content-standard",
+	extract: "The principles we use to guide our content creation and use.",
+	themeModifier: "standards",
+	eleventyNavigation: {
+		key: "Content principles",
+		parent: "Creating content"
+	},
+	longPage: true
+}
 ---
 
 

@@ -1,16 +1,19 @@
----
-layout: main-aside
-title: Accessibility | Standards as a platform | Barnardo's
-desc: Barnardo's online platforms accessibility standards
-permalink: standards/web-accessibility/
-pageTitle: Web accessibility
-pageTaxonomy: content
-tags: standard
-extract: How we make sure people with disabilities can use our online products.
-themeModifier: standards
-eleventyNavigation:
-  key: Web accessibility
-  parent: Standards
+---js
+{
+	layout: "main-aside",
+	title: "Accessibility | Standards as a platform | Barnardo's",
+	desc: "Barnardo's online platforms accessibility standards",
+	permalink: "standards/web-accessibility/",
+	pageTitle: "Web accessibility",
+	pageTaxonomy: "content",
+	tags: "standard",
+	extract: "How we make sure people with disabilities can use our online products.",
+	themeModifier: "standards",
+	eleventyNavigation: {
+		key: "Web accessibility",
+		parent: "Standards"
+	}
+}
 ---
 
 It is a legal and moral obligation to make web content and functionality available to people with disabilities. This includes but is not limited to:

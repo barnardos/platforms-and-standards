@@ -1,17 +1,20 @@
----
-layout: main-aside
-title: Performance | Standards as a platform | Barnardo's
-desc: Barnardo's online platforms performance standards
-permalink: standards/web-performance/
-pageTitle: Front end performance
-pageTaxonomy: content
-tags: standard
-extract: How we make our website fast and light for all our users.
-themeModifier: standards
-eleventyNavigation:
-  key: Front end performance
-  parent: Standards
-longPage: true
+---js
+{
+	layout: "main-aside",
+	title: "Performance | Standards as a platform | Barnardo's",
+	desc: "Barnardo's online platforms performance standards",
+	permalink: "standards/web-performance/",
+	pageTitle: "Front end performance",
+	pageTaxonomy: "content",
+	tags: "standard",
+	extract: "How we make our website fast and light for all our users.",
+	themeModifier: "standards",
+	eleventyNavigation: {
+		key: "Front end performance",
+		parent: "Standards"
+	},
+	longPage: true
+}
 ---
 
 ## Why fast and light websites matter
