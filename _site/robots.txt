@@ -1,0 +1,4 @@
+Sitemap: https://platforms.barnardos.org.uk/sitemap.xml
+
+User-agent: *
+Disallow:

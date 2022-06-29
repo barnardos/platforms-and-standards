@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
   // Use files and folders from root in _site
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("_headers");
+  eleventyConfig.addPassthroughCopy("robots.txt");
 
   // Watch for changes
   eleventyConfig.addWatchTarget("css");
