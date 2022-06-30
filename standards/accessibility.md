@@ -28,7 +28,6 @@ It is a legal and moral obligation to make web content and functionality availab
 - Neurodiversity
 - Motion sickness
 - Reading level
-{.list}
 
 Primarily, write semantic HTML. Without this rock solid base for your content, any later efforts to bolt on accessibility will fall short. Developers must familiarise themselves with the [HTML living standard](https://html.spec.whatwg.org/multipage/) so that they use the best element for each piece of structure, content, and interaction.
 

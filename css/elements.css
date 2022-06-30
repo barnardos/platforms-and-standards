@@ -99,9 +99,19 @@ h4 {
 
 ul,
 ol {
-	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+	padding-inline-start: 1rem;
 	margin: 0;
-	padding: 0;
+}
+
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+ul[role=list] {
+	list-style: none;
 }
 
 p,

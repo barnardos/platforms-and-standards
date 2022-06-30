@@ -34,7 +34,6 @@ We’re committing to three strategic aims that will help us do just that. We wi
 - Stronger families
 - Safer childhoods
 - Positive futures
-{.list}
 
 To find out which services sit under each strategic pillar, see [our corporate strategy](https://www.barnardos.org.uk/who-we-are/our-strategy).
 
@@ -90,7 +89,6 @@ We write in down-to-earth, everyday English. We do not use unnecessary adjective
 - authentic
 - approachable
 - supportive
-{.list}
 
 ### Our voice shouldn’t be
 
@@ -100,7 +98,6 @@ We write in down-to-earth, everyday English. We do not use unnecessary adjective
 - naively positive
 - metaphorical
 - self-congratulatory
-{.list}
 
 ### How we should speak
 
@@ -125,7 +122,6 @@ Please, please give whatever you can to help abused, desperate children. We’ll
 - show resilience and defiance
 - be understanding
 - leave room for theaudience’s imagination
-{.list}
 
 ### Don’t
 
@@ -138,7 +134,6 @@ Please, please give whatever you can to help abused, desperate children. We’ll
 - be cold
 - sensationalise
 - be overly emotional
-{.list}
 
 ### We sound like
 
@@ -194,7 +189,6 @@ When writing materials for or about Barnardo’s, general points to consider inc
 - Nations should appear as Barnardo’s Scotland, Barnardo’s Cymru, Barnardo’s Northern Ireland or simply as Northern Ireland where the context is clear.
 - When Barnardo’s retail and fundraising offices are located separately from children’s services, use ‘Barnardo’s Yorkshire fundraising office’, ‘Midlands retail office’, etc.
 - Children’s services and marketing are directorates. Groups within the department are known as teams, e.g. creative team.
-{.list}
 
 ## Punctuation and grammar
 
@@ -223,7 +217,6 @@ Do use capitals for:
 - services – e.g. the National Health Service
 - departments – e.g. Children’s Services, Marketing, and teams within departments e.g. Finance; Information Services
 - job titles are only capitalised when referring to a specific person e.g. Javed Khan, Chief Executive but lower case when using more generally, e.g ‘the last two chief executives have...’
-{.list}
 
 ### Dates
 
@@ -269,7 +262,6 @@ Avoid writing sentences that contain more than four points, as they become diffi
 
 - start with a lowercase letter (except proper nouns and sub-headings)
 - have no punctuation at the bullet’s end (question marks excepted)
-{.list}
 
 Bullet points shouldn’t contain complete sentences or go over a number of lines (if you’re writing a sentence that goes over a number of lines, it isn’t an item in a list, so consider putting it outside the list).
 
@@ -307,7 +299,6 @@ For example:
 
 - In the 1970s research revealed very little understanding of the subject among social workers (McTavish, 1998).
 - McTavish (1998) showed that social workers knew little about the subject.
-{.list}
 
 In text, where there are three or more authors only the first author should be listed, e.g. ‘as established by Jones et al (1998)’. Where there are two authors, both should be listed, e.g. ‘as described by Khan and Davies (2002)’.
 
