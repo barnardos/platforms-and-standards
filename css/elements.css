@@ -103,7 +103,7 @@ ol {
 	margin: 0;
 }
 
-@media screen and (min-width:93rem) {
+@media screen and (min-width: 93rem) {
 	ul,
 	ol {
 		padding-inline-start: 0;
@@ -111,7 +111,7 @@ ol {
 }
 
 ol[class],
-[role=list] {
+[role="list"] {
 	list-style: none;
 	padding: 0;
 }
