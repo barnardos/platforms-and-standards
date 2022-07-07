@@ -3,7 +3,7 @@
 		<h2 class="section-navigation-title">Also in {{ eleventyNavigation.parent }}</h2>
 
 		{% set siblings = collections.all | eleventyNavigation(eleventyNavigation.parent, { includeSelf: true }) %}
-				<ul>
+				<ul role="list">
 				{% for sibling in siblings %}
 					<li>
 						<a href="{{ sibling.url | url }}" {% if sibling.url == page.url %}aria-current="page"{% endif %}>{{ sibling.title }}</a>

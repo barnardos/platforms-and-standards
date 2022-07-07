@@ -1,18 +1,8 @@
-.list {
+.list-compact {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-	list-style: initial;
-	padding-inline-start: 1rem;
-}
-
-.list--compact {
 	grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
 }
 
-.list--ordered {
-	list-style: decimal;
-}
-
-.list li {
+.list-compact li {
 	padding-inline-end: 16px;
 }

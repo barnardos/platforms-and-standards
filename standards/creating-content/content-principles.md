@@ -26,7 +26,6 @@
 5. We check everything before we publish it
 6. We update or retire content that’s out of date
 7. We use data and evidence to support content decisions
-{.list .list--ordered}
 
 ## User needs
 
@@ -39,7 +38,6 @@ Before we can meet their need, we must understand it.
 - Who is the audience?
 - What do they want to do?
 - Why do they want to do it?
-{.list}
 
 ### How to identify user needs
 
@@ -49,7 +47,6 @@ You can find out what users need from your website through:
 - analytics which show what people are searching for and whether the content they find is useful or not
 - on-site feedback
 - data from call centres
-{.list}
 
 **Note: we’re talking about user needs, not organisational needs**
 
@@ -62,7 +59,6 @@ Use this format:
 - As a...[who is the user?]
 - I want to...[what does the user want to do?]
 - So I can...[why does the user want to do this?]
-{.list}
 
 #### Examples:
 
@@ -91,7 +87,6 @@ Acceptance criteria might include:
 - understands how much she will be paid
 - knows when she will be paid
 - knows if there are any terms or conditions that will affect her The list doesn’t have to be in any specific order and you can keep adding to it. If the list gets long and unwieldy, check there isn’t a new user need lurking in it. In this example, there are other eligibility issues surrounding such as pre- approval and checks – that’s one or several different user needs.
-{.list}
 
 #### Tips for writing user stories
 
@@ -102,7 +97,6 @@ Here’s an example of a user story that justifies existing content:
 - As an...online shopper
 - I want to...browse the Barnardo’s online shop
 - So I can...buy sweets and Teletubbies bracelets for my children.
-{.list}
 
 #### Define the user
 
@@ -126,14 +120,12 @@ If the need is to ‘know’ or ‘understand’ or ‘find out about’ somethi
 - As a... member of the public with some time to spare each week
 - I need to...find out about volunteering in a shop
 - So I can...apply online for a volunteering opportunity
-{.list}
 
 #### Bad example
 
 - As a... member of the public with some time to spare each week
 - I need to...find out about volunteering in a shop
 - So I can...know how to volunteer in a shop
-{.list}
 
 ### Do the research: data and evidence
 
@@ -147,7 +139,6 @@ Tools include:
 
 - qualitative research with users (like interviews or usability lab studies)
 - pop-up research (also known as guerrilla research)
-{.list}
 
 #### Indirect research
 
@@ -156,7 +147,6 @@ Tools include:
 - surveys
 - online user research software
 - A/B testing
-{.list}
 
 #### Analytics
 
@@ -167,7 +157,6 @@ Sometimes, we have set analytics to help us answer specific questions. But we ca
 - traffic to relevant pages
 - how long people spend on pages
 - what they do on pages – download a PDF, search, complete a task
-{.list}
 
 #### Other sources of information
 
@@ -178,7 +167,6 @@ Sometimes, we have set analytics to help us answer specific questions. But we ca
 - Frontline service data
 - Customer complaints and queries
 - Anything ingenious we can think of: it’s all gold
-{.list}
 
 ## How we structure content
 
@@ -186,7 +174,6 @@ Sometimes, we have set analytics to help us answer specific questions. But we ca
 2. Put the most important information first
 3. Make it easy to scan
 4. Use content patterns
-{.list .list--ordered}
 
 ### Consider user journeys
 
@@ -220,7 +207,6 @@ The most attention-grabbing structural elements are:
 - bulleted lists
 - images and captions
 - links
-{.list}
 
 ### Use content design patterns
 
@@ -243,7 +229,6 @@ To do this, we:
 - use the active voice (say ‘We’ll send you a letter’, not ‘A letter will be sent to you’)
 - explain technical terms
 - don’t use jargon
-{.list}
 
 Research shows that everyone prefers plain English, no matter their level of education or reading ability.
 
@@ -268,7 +253,6 @@ We do this in:
 - the Hemingway app
 - Microsoft Word
 - Readable
-{.list}
 
 As a rule of thumb, aim for a reading age of about 9. (Read why we aim for 9.) For technical, medical and professional content, aim for 12.
 
@@ -287,7 +271,6 @@ Look out for:
 - medicalese
 - marketing speak
 - specialist terms that aren’t technical terms
-{.list}
 
 ### Technical terms
 
@@ -328,7 +311,6 @@ We must check every piece of content we publish on Barnardos.org.uk.
 - scan the content – can you tell what it’s about with a quick scan?
 - check the readability score
 - check it has a review date
-{.list}
 
 **Check that the content:**
 
@@ -336,7 +318,6 @@ We must check every piece of content we publish on Barnardos.org.uk.
 - doesn’t duplicate existing content
 - has a clear user need
 - is in the right format
-{.list}
 
 **Titles should be:**
 
@@ -347,7 +328,6 @@ We must check every piece of content we publish on Barnardos.org.uk.
 - optimised for search (use keywords)
 - in sentence case
 - in plain English – no jargon
-{.list}
 
 **Body text should:**
 
@@ -358,7 +338,6 @@ We must check every piece of content we publish on Barnardos.org.uk.
 - define acronyms and abbreviations the first time they’re used
 - explain any technical terms
 - meet voice and tone guidelines
-{.list}
 
 ### Checks for factual accuracy
 
@@ -372,14 +351,12 @@ Subject matter experts check for factual accuracy. They don’t need to waste th
 - Send agreed changes, not questions or unresolved comments
 - Provide reasons for changes, so writers can understand
 - Respond by the deadline
-{.list}
 
 **Don’t:**
 
 - Check for basic mistakes like punctuation errors – we have other checks for that
 - Correct style – capitals, acronyms, bullets
 - Revert to text you provided – it’s been changed for a reason
-{.list}
 
 ## After we publish
 
@@ -392,4 +369,3 @@ All content we publish has a review date. At that date, we check it to see if:
 - it’s correctly positioned for user journey (we may have published something else that will alter this)
 - it’s factually accurate
 - any external links need to be updated
-{.list}

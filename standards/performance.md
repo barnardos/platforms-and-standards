@@ -90,7 +90,7 @@ These devices can't download, parse, compile, render or execute code at anything
 - Razer
 - Teclast
 - Vernee
-{.list .list--compact}
+{.list-compact}
 
 ### Data is expensive for a lot of people
 

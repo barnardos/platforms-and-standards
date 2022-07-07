@@ -99,8 +99,20 @@ h4 {
 
 ul,
 ol {
-	list-style: none;
+	padding-inline-start: 1rem;
 	margin: 0;
+}
+
+@media screen and (min-width: 93rem) {
+	ul,
+	ol {
+		padding-inline-start: 0;
+	}
+}
+
+ol[class],
+[role="list"] {
+	list-style: none;
 	padding: 0;
 }
 
