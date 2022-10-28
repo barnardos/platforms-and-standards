@@ -16,6 +16,7 @@
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<meta name="generator" content="Eleventy">
 		<meta name="msvalidate.01" content="41318D6617BBDA04E10B555658824348">
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	</head>
 
 	<body>
@@ -107,5 +108,18 @@
 		<footer>
 			<small>© Barnardo’s</small>
 		</footer>
+
+		<script>
+			if (window.netlifyIdentity) {
+				window.netlifyIdentity.on("init", user => {
+					if (!user) {
+						window.netlifyIdentity.on("login", () => {
+							document.location.href = "/admin/";
+						});
+					}
+				});
+			}
+		</script>
+
 	</body>
 </html>

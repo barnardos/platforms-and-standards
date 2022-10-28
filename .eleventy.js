@@ -22,6 +22,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("fonts");
 	eleventyConfig.addPassthroughCopy("_headers");
 	eleventyConfig.addPassthroughCopy("robots.txt");
+	eleventyConfig.addPassthroughCopy("admin");
 
 	// Watch for changes
 	eleventyConfig.addWatchTarget("css");
