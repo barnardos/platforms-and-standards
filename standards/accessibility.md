@@ -31,7 +31,7 @@ It is a legal and moral obligation to make web content and functionality availab
 
 Primarily, write semantic HTML. Without this rock solid base for your content, any later efforts to bolt on accessibility will fall short. Developers must familiarise themselves with the [HTML living standard](https://html.spec.whatwg.org/multipage/) so that they use the best element for each piece of structure, content, and interaction.
 
-All Barnardo's web pages must achieve [WCAG](https://www.w3.org/TR/WCAG21/) (web content accessibility guidelines) AA conformance throughout, and level AAA conformance where possible.
+All Barnardo's web pages must achieve [WCAG](https://www.w3.org/TR/WCAG21/) (web content accessibility guidelines) AA conformance throughout, and level AAA conformance where possible. Restated, <strong>AA is a minimum, not a goal</strong>.
 
 All text content must have a Flesch-Kincaid Grade Level of 4.2 or lower. To see the Flesch-Kincaid Grade Level in Word [follow these steps](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2).
 
