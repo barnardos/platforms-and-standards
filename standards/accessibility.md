@@ -44,7 +44,7 @@ We recommend [TetraLogical](https://tetralogical.com/) for accessibility testing
 ## Tota11y
 <p>Drag this bookmarklet into your bookmark bar. <a href="https://brucelawson.co.uk/2021/accessibility-visualisation-with-tota11y-2/">Instructions</a> on Bruce's blog (for now)
 
-<a style="text-justify:center; border:1px solid green; width:50%; padding:.5em; margin:1em auto;display:block;" href="javascript:(function()%7Bvar tota11y%3Ddocument.createElement(%27SCRIPT%27)%3Btota11y.type%3D%27text/javascript%27%3Btota11y.src%3D%27/tota11y/tota11y.min.js%27%3Bdocument.getElementsByTagName(%27head%27)%5B0%5D.appendChild(tota11y)%3B%7D)()%3B">Tota11y2</a></p>
+<a style="text-justify:center; border:1px solid green; width:50%; padding:.5em; margin:1em auto;display:block;" href="javascript:(function()%7Bvar tota11y%3Ddocument.createElement(%27SCRIPT%27)%3Btota11y.type%3D%27text/javascript%27%3Btota11y.src%3D%27https://platforms.barnardos.org.uk/tota11y/tota11y.min.js%27%3Bdocument.getElementsByTagName(%27head%27)%5B0%5D.appendChild(tota11y)%3B%7D)()%3B">Tota11y2</a></p>
 
 ## Reading list
 
