@@ -100,6 +100,14 @@ The median weight of web pages delivered to phones is [just over 2 megabytes](ht
 
 All web pages on Barnardo's products should be less than 100 kilobytes.
 
+### Making phones work hard consumes battery
+
+Developers must be mindful of end users' battery life. From [The potential for empowering homeless people through digital technology (2013, PDF)](https://thamesreach.org.uk/wp-content/uploads/2017/11/Lemos-and-Crane-Empowerinh-Digital-Technology.pdf):
+
+> One fundamental problem that homeless and vulnerable people currently face is the issue of recharging their devices. Many homeless people put themselves in danger in order to access power for their devices, trespassing private property and using outdoor power sockets. Examples in the UK are difficult to find, but in the US, many homeless people resort to trespassing. This puts them at risk of altercations, violence, or even arrest.
+
+Obviously, using heavy JavaScript to render sites on client devices will take its toll on a user's battery, but so will other very common techniques, such as sending large images and using CSS max-width:100% to to force a browser to resize an image. This has a [measurable delay](https://timkadlec.com/2013/11/why-we-need-responsive-images-part-deux/) while the user's phone consumes CPU cycles to do this. Instead, resize images at build time and use [HTML responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) so the browser can choose the correct size.
+
 ### Network performance is bad for everyone some of the time
 
 No matter how expensive your device or how many megabytes in your data plan, there are times when wifi dips or when mobile internet signal wobbles around the slow end of 3G. A light website has a better chance of delivery to users' devices under poor network conditions.
