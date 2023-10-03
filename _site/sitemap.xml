@@ -3,8 +3,8 @@
 	
 	   
 		<url>
-			<loc>https://platforms.barnardos.org.uk/standards/creating-content/</loc>
-			<lastmod>2022-06-25T11:14:20.810Z</lastmod>
+			<loc>https://platforms.barnardos.org.uk/admin/</loc>
+			<lastmod>2023-09-06T10:14:53.370Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -12,7 +12,7 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/content/</loc>
-			<lastmod>2022-06-29T18:20:11.787Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.370Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -20,7 +20,7 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/fundraising/</loc>
-			<lastmod>2022-06-29T18:20:11.790Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.371Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -28,7 +28,7 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/</loc>
-			<lastmod>2022-06-29T18:20:11.791Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.371Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -36,15 +36,7 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/services/</loc>
-			<lastmod>2022-06-29T18:20:11.792Z</lastmod>
-			<changefreq>monthly</changefreq>
-		</url>
-		
-	
-	   
-		<url>
-			<loc>https://platforms.barnardos.org.uk/standards/</loc>
-			<lastmod>2022-06-29T18:20:11.792Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.372Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -52,7 +44,15 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/standards/web-accessibility/</loc>
-			<lastmod>2022-07-07T15:21:29.543Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.372Z</lastmod>
+			<changefreq>monthly</changefreq>
+		</url>
+		
+	
+	   
+		<url>
+			<loc>https://platforms.barnardos.org.uk/standards/creating-content/</loc>
+			<lastmod>2023-09-06T10:14:53.372Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -60,7 +60,7 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/standards/creating-content/content-principles/</loc>
-			<lastmod>2022-07-07T15:21:29.543Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.373Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -68,7 +68,15 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/standards/creating-content/writing-guidelines/</loc>
-			<lastmod>2022-07-07T15:21:29.544Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.373Z</lastmod>
+			<changefreq>monthly</changefreq>
+		</url>
+		
+	
+	   
+		<url>
+			<loc>https://platforms.barnardos.org.uk/standards/</loc>
+			<lastmod>2023-09-06T10:14:53.373Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -76,15 +84,7 @@
 	   
 		<url>
 			<loc>https://platforms.barnardos.org.uk/standards/web-performance/</loc>
-			<lastmod>2022-07-07T15:21:29.544Z</lastmod>
-			<changefreq>monthly</changefreq>
-		</url>
-		
-	
-	   
-		<url>
-			<loc>https://platforms.barnardos.org.uk/admin/</loc>
-			<lastmod>2022-10-28T22:28:25.450Z</lastmod>
+			<lastmod>2023-09-06T10:14:53.373Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		

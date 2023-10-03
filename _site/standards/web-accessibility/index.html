@@ -85,11 +85,14 @@
 <li>Reading level</li>
 </ul>
 <p>Primarily, write semantic HTML. Without this rock solid base for your content, any later efforts to bolt on accessibility will fall short. Developers must familiarise themselves with the <a href="https://html.spec.whatwg.org/multipage/">HTML living standard</a> so that they use the best element for each piece of structure, content, and interaction.</p>
-<p>All Barnardo's web pages must achieve <a href="https://www.w3.org/TR/WCAG21/">WCAG</a> (web content accessibility guidelines) AA conformance throughout, and level AAA conformance where possible.</p>
+<p>All Barnardo's web pages must achieve <a href="https://www.w3.org/TR/WCAG21/">WCAG</a> (web content accessibility guidelines) AA conformance throughout, and level AAA conformance where possible. Restated:  <strong>AA conformance is a minimum, not a goal</strong>.</p>
 <p>All text content must have a Flesch-Kincaid Grade Level of 4.2 or lower. To see the Flesch-Kincaid Grade Level in Word <a href="https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2">follow these steps</a>.</p>
 <p>Automated accessibility tools can pick up some problems, but manual testing is required to meet many success criteria. For example an automated tool cannot check if alternative text is descriptive and relevant.</p>
 <p>Product owners must never allow the use of accessibility overlays. The people who use Barnardo's products deserve better, and any product that carries the Barnardo's name must provide better.</p>
 <p>We recommend <a href="https://tetralogical.com/">TetraLogical</a> for accessibility testing and reporting if the relevant expertise is not present in the team building your product.</p>
+<h2 id="tota11y" tabindex="-1">Tota11y</h2>
+<p>Drag this bookmarklet into your bookmark bar. <a href="https://brucelawson.co.uk/2021/accessibility-visualisation-with-tota11y-2/">Instructions</a> on Bruce's blog (for now)
+<p><a style="text-justify:center; border:1px solid green; width:50%; padding:.5em; margin:1em auto;display:block;" href="javascript:(function()%7Bvar tota11y%3Ddocument.createElement(%27SCRIPT%27)%3Btota11y.type%3D%27text/javascript%27%3Btota11y.src%3D%27https://platforms.barnardos.org.uk/tota11y/tota11y.min.js%27%3Bdocument.getElementsByTagName(%27head%27)%5B0%5D.appendChild(tota11y)%3B%7D)()%3B">Tota11y2</a></p></p>
 <h2 id="reading-list" tabindex="-1">Reading list</h2>
 <ul>
 <li><a href="https://www.w3.org/TR/html-aria/">https://www.w3.org/TR/html-aria/</a></li>
@@ -121,11 +124,11 @@
 				<ul role="list">
 				
 					<li>
-						<a href="/standards/creating-content/" >Creating content</a>
+						<a href="/standards/web-accessibility/" aria-current="page">Web accessibility</a>
 					</li>
 				
 					<li>
-						<a href="/standards/web-accessibility/" aria-current="page">Web accessibility</a>
+						<a href="/standards/creating-content/" >Creating content</a>
 					</li>
 				
 					<li>
@@ -143,6 +146,18 @@
 		<div class="layout">
 			<aside>
 				<details><summary>Changelog</summary><ul><li>
+					<time datetime="2023-10-02">2023-00-02</time>: tweaked wording
+					<a href="https://github.com/barnardos/platforms-and-standards/commit/51561dac2618472f4d582ba3b265e4c7012f6f9c">51561da</a>
+				</li><li>
+					<time datetime="2023-10-02">2023-00-02</time>: absolute URL
+					<a href="https://github.com/barnardos/platforms-and-standards/commit/cca8a6fd0913b348915501068d8decf33feb7444">cca8a6f</a>
+				</li><li>
+					<time datetime="2023-10-02">2023-00-02</time>: Tota11y bookmarklet
+					<a href="https://github.com/barnardos/platforms-and-standards/commit/cb2596b97ef514c8cadf0d74728e4b12ba8af573">cb2596b</a>
+				</li><li>
+					<time datetime="2023-10-02">2023-00-02</time>: note on perf; tota11y test
+					<a href="https://github.com/barnardos/platforms-and-standards/commit/703edadf759e1ab79cb5b96dbf6227e2487cb798">703edad</a>
+				</li><li>
 					<time datetime="2022-06-30">2022-00-30</time>: Us bulleted and numbered lists by default
 					<a href="https://github.com/barnardos/platforms-and-standards/commit/06e9deada0236eb621bbcf7d54a64a82b340c64a">06e9dea</a>
 				</li><li>
