@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("_headers");
 	eleventyConfig.addPassthroughCopy("robots.txt");
 	eleventyConfig.addPassthroughCopy("admin");
-	eleventyConfig.addPassthroughCopy("tota11y");
+
 
 	// Watch for changes
 	eleventyConfig.addWatchTarget("css");
