@@ -43,7 +43,7 @@
 	
 	   
 		<url>
-			<loc>https://platforms.barnardos.org.uk/standards/web-accessibility/</loc>
+			<loc>https://platforms.barnardos.org.uk/standards/creating-content/</loc>
 			<lastmod>2023-09-06T10:14:53.372Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
@@ -51,8 +51,8 @@
 	
 	   
 		<url>
-			<loc>https://platforms.barnardos.org.uk/standards/creating-content/</loc>
-			<lastmod>2023-09-06T10:14:53.372Z</lastmod>
+			<loc>https://platforms.barnardos.org.uk/standards/creating-content/PDF-video/</loc>
+			<lastmod>2023-09-06T10:14:53.373Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
@@ -83,8 +83,24 @@
 	
 	   
 		<url>
+			<loc>https://platforms.barnardos.org.uk/standards/css/</loc>
+			<lastmod>2023-10-03T10:07:11.281Z</lastmod>
+			<changefreq>monthly</changefreq>
+		</url>
+		
+	
+	   
+		<url>
+			<loc>https://platforms.barnardos.org.uk/standards/web-accessibility/</loc>
+			<lastmod>2023-10-03T10:07:11.281Z</lastmod>
+			<changefreq>monthly</changefreq>
+		</url>
+		
+	
+	   
+		<url>
 			<loc>https://platforms.barnardos.org.uk/standards/web-performance/</loc>
-			<lastmod>2023-09-06T10:14:53.373Z</lastmod>
+			<lastmod>2023-10-03T10:07:11.281Z</lastmod>
 			<changefreq>monthly</changefreq>
 		</url>
 		
