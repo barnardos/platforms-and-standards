@@ -33,7 +33,7 @@ Note that **PDF is usually a poor choice of format for publishing on the web** b
 
 ### Start with a structured document
 
-Strucuring a document correctly, using headings and describing images and not attempting fancy layouts goes a long way towards an accessible end-result.
+Structuring a document correctly, using headings and describing images and not attempting fancy layouts goes a long way towards an accessible end-result.
 
 * [Make your Word documents accessible to people with disabilities ](https://support.microsoft.com/en-gb/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d)
 * [Create accessible documents, spreadsheets or presentations with Pages, Numbers or Keynote](https://support.apple.com/en-gb/102031)
