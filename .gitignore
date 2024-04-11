@@ -1,3 +1,8 @@
 node_modules/
 _site/
 /_site
+_site/sitemap.xml
+_site/standards/creating-content/content-principles/index.html
+_site/standards/creating-content/index.html
+_site/standards/creating-content/writing-guidelines/index.html
+_site/standards/web-accessibility/index.html
