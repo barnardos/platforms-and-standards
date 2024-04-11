@@ -51,7 +51,7 @@ As stated above, this is **not** a comprehenive audit. As DWP writes,
 - [NVDA Keyboard Shortcuts (Windows)](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
 - [VoiceOver Gestures on iOS](https://dequeuniversity.com/screenreaders/voiceover-ios-shortcuts)
 - [Talkback Gestures on Android](https://dequeuniversity.com/screenreaders/talkback-shortcuts)
-- [Tota11y](/standards/web-accessibility/resources/#tota11y) has the up-to-date algorithm for text contrast. But note that it compares the CSS ccolor and background; it can't "see" pixels if text is overlaid on a picture, or evaluate UI elements (arrows, icons etc). Use CCA (below) for that.
+- [Tota11y](/standards/web-accessibility/resources/#tota11y) has the up-to-date algorithm for text contrast. But note that it compares the CSS color and background; it can't "see" pixels if text is overlaid on a picture, or evaluate UI elements (arrows, icons etc). Use CCA (below) for that.
 - - [Colour Contrast Analyzer (CCA)](https://www.tpgi.com/color-contrast-checker/)
 
 
