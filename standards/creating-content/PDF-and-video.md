@@ -71,7 +71,7 @@ Closed captions must be available, either as downloadable transcript or as synch
 
 One possible workflow is:
 
-1.  get the audio transcribed (either by hand or by machine; [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) is cheap and excellent).
+1. Get the audio transcribed (either by hand or by machine; [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) is cheap and excellent).
 2. Check the transcript.
 3. Upload the video and the textual transcript to YouTube and allow YouTube to synchronise the subtitles. Alternatively, if you've used MacWhisper or similar to generate .srt files, that will contain timestamps which YouTube can use.
 4. Check that the subtitles are in sync.
@@ -79,7 +79,9 @@ One possible workflow is:
 Some videos have content that communicates information that is only communicated visually. These require audio description, which the [Royal National Institute of Blind People  describes](https://www.rnib.org.uk/living-with-sight-loss/assistive-aids-and-technology/tv-audio-and-gaming/audio-description-ad/#:~:text=What%20is%20Audio%20Description%3F,the%20programme%20clear%20through%20sound):
 > Audio description (AD) is additional commentary that explains what’s happening on screen. AD describes body language, expressions and movements, making the programme clear through sound.
 
-Because this audio description must be scriped, acted and timed to co-incide with pauses in other dialogue or music, it's part of video production and can't be retrospectively applied by the web team; it's an essential content task.
+The UK government has basic guidance on [Adding an audio description to your videos](https://gcs.civilservice.gov.uk/guidance/accessible-communications/adding-an-audio-description-to-your-videos/).
+
+Because this audio description must be scripted, acted and timed to coincide with pauses in other dialogue or music, it's part of video production and **can't be retrospectively applied by the web team**; it's **an essential content task**.
 
 
 
