@@ -69,19 +69,84 @@ Meryl Evans, [a Deaf accessibility consultant, writes](https://meryl.net/why-cap
 
 Closed captions must be available, either as downloadable transcript or as synchronised subtitles.
 
-One possible workflow is:
-
-1. Get the audio transcribed (either by hand or by machine; [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) is cheap and excellent).
-2. Check the transcript.
-3. Upload the video and the textual transcript to YouTube and allow YouTube to synchronise the subtitles. Alternatively, if you've used MacWhisper or similar to generate .srt files, that will contain timestamps which YouTube can use.
-4. Check that the subtitles are in sync.
-
 Some videos have content that communicates information that is only communicated visually. These require audio description, which the [Royal National Institute of Blind People  describes](https://www.rnib.org.uk/living-with-sight-loss/assistive-aids-and-technology/tv-audio-and-gaming/audio-description-ad/#:~:text=What%20is%20Audio%20Description%3F,the%20programme%20clear%20through%20sound):
 > Audio description (AD) is additional commentary that explains what’s happening on screen. AD describes body language, expressions and movements, making the programme clear through sound.
 
 The UK government has basic guidance on [Adding an audio description to your videos](https://gcs.civilservice.gov.uk/guidance/accessible-communications/adding-an-audio-description-to-your-videos/).
 
 Because this audio description must be scripted, acted and timed to coincide with pauses in other dialogue or music, it's part of video production and **can't be retrospectively applied by the web team**; it's **an essential content task**.
+
+
+## A sample captioning workflow
+
+Get the audio transcribed (either by hand or by machine; [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) is cheap and excellent). Check the transcript, and make any necessary corrections.
+
+Assuming you use MacWhisper or a similar product that can generate timestamps for you, save as a [subtitle file (.srt)](https://docs.fileformat.com/video/srt/).
+
+Here's the .srt-formatted subtitles of a short video I've made about the merits of cheese (using puppets because Equity-rate actors were beyond my budget):
+
+<pre>
+<code>
+1
+00:00:00,000 --> 00:00:05,500
+Hello, I really like cheese. 
+Do you like cheese?
+
+2
+00:00:05,500 --> 00:00:08,500
+No, cheese is crap.
+</code>
+</pre>
+
+.srt files are just text files, so you can edit with any plain text editor (eg Notepad. don't use Word; it adds formatting).
+
+Add the name of the speaker when the speaker changes. In UK and Europe, it's common (but not compulsory) to use the name plus a colon; in USA it's common to surround the speaker name with square brackets. (See [A guide to the visual language of closed captions and subtitles](https://uxdesign.cc/a-guide-to-the-visual-language-of-closed-captions-and-subtitles-2fda5fa2a325)   for more information.)
+
+<pre>
+<code>
+1
+00:00:00,000 --> 00:00:05,500
+[Mrs Wigglepig] Hello, I really like cheese. 
+Do you like cheese?
+
+2
+00:00:05,500 --> 00:00:08,500
+[Arthur the Naughty] No, cheese is crap.
+</code>
+</pre>
+
+Once this is done, upload the video to YouTube, use the 'add subtitles' feature, making sure to use the 'has timestamps' radio button.
+
+### If you don't have timestamped subtitles
+
+Adding timestamps by hand is a pain. You can upload a text-only subtitles file to YouTube, *don't* choose 'has timestamps', and YouTube will autosync the timestamps with the audio. Once this is done, you can edit the auto-synchronised subtitles to add speaker names.
+
+(The auto-syncing process can take a while -even days- depending on how busy YouTube's servers are, and how much YouTube likes you personally. But the video should not be made public until the subtitles are finished.)
+
+## Embedding videos into our pages
+
+Embedding subtitled YouTube videos into our pages is simple, and the subtitles are accessible but still hosted on YouTube. This means our site search won't index the content of the video, and any Google search for our content would go to YouTube rather than our sites.
+
+It's possible to embed the collapsed transcript below the video accessibly and performantly, with the [HTML details disclosure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details).
+
+Here's a live example; click the triangle to expose the transcript.  
+
+<figure style="border: 1px solid #ccc; padding:10px;">
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom:1em; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/RbToefFd6xw' frameborder='0' allowfullscreen></iframe></div>
+<figcaption>
+<details>
+<summary>Transcript</summary>
+[Mrs Wigglepig] Hello, I really like cheese. 
+Do you like cheese?
+
+[Arthur the Naughty] No, cheese is crap.
+</details>
+</figcaption>
+</figure>
+
+Note that the timestamps are not included in this embedded transcript, because it's a text file, and not synchronised with the video.
+
+
 
 
 
