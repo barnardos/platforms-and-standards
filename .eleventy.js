@@ -22,6 +22,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("fonts");
 	eleventyConfig.addPassthroughCopy("_headers");
 	eleventyConfig.addPassthroughCopy("robots.txt");
+	eleventyConfig.addPassthroughCopy("favicon.ico");
+	eleventyConfig.addPassthroughCopy("icon.svg");
+	eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
 	eleventyConfig.addPassthroughCopy("admin");
 
 
