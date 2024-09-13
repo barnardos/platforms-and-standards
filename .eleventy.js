@@ -63,7 +63,7 @@ module.exports = function(eleventyConfig) {
 			var hash = commits[i].hash;
 			var abbrevHash = commits[i].abbrevHash;
 				// Convert ISO to readable date e.g. "May 05 2020"
-				var readableDate = DateTime.fromISO(isoDate).toFormat('yyyy-mm-dd');
+				var readableDate = DateTime.fromISO(isoDate).toFormat('yyyy-MM-dd');
 			html += `<li>
 					<time datetime="${isoDate}">${readableDate}</time>: ${commits[i].subject}
 					<a href="https://github.com/barnardos/platforms-and-standards/commit/${hash}">${abbrevHash}</a>
